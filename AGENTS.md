@@ -35,6 +35,21 @@ sh build-repo.sh        # 在项目根执行，可重复运行，幂等
 两个坑（2026-10-24 实际踩过）：
 - **必须在 `debs/` 目录里上传**。网页从仓库根目录上传的 deb 只是多了个文件：脚本扫的是 `debs/*.deb`，CI 只监听 `debs/**`，都不会被收录。补救办法是把根目录的 deb `mv` 进 `debs/`，重跑脚本后提交。
 - **文件名用纯 ASCII**：`<Package>_<版本>_iphoneos-arm64e.deb`。中文文件名会进 `Packages` 的 `Filename` 和首页链接，客户端要 URL 编码，容易下载失败；改文件名不影响包标识（看 control 的 `Package`），不用重新打包。
+  **空格尤其致命**：`Release` 的 MD5Sum/SHA256 行是「哈希 大小 路径」空格分隔，路径带空格整行错位 → 客户端 Hash Sum mismatch。脚本遇到含空格/非 ASCII 的文件名会打警告，但不会自动改名。
+- **control 权限写成 0000 的 deb**：`dpkg-deb -f` 会 Permission denied（`dpkg-deb -I` 报 cannot open 'control'）。脚本的 `deb_control` 会退回自己解析 ar 成员，用 `tar xzOf`/`tar xJOf` 把 control 打到标准输出（不落盘，绕开权限位），这种包照样能收录（例：`com.25mao.leftpan_2.0-1`）。
+
+批量改名的做法（`dpkg-deb` 读不出 control 的那个用 ar+tar 兜底，或手工按 control 内容命名）：
+
+```sh
+for f in debs/*.deb; do
+	b="$(basename "$f")"
+	pkg="$(dpkg-deb -f "$f" Package 2>/dev/null)"; ver="$(dpkg-deb -f "$f" Version 2>/dev/null)"
+	arch="$(dpkg-deb -f "$f" Architecture 2>/dev/null)"
+	[ -n "$pkg" ] && [ -n "$ver" ] || continue
+	tgt="${pkg}_${ver}_${arch}.deb"; [ "$b" = "$tgt" ] && continue
+	[ -e "debs/$tgt" ] || mv "$f" "debs/$tgt"
+done
+```
 
 `NO_BZ2=1 sh build-repo.sh` 可强制不生成 `Packages.bz2`（本机没有 bzip2 时本来就是这行为；CI 里这样跑可与本机输出逐字节一致）。
 
@@ -59,6 +74,7 @@ sh build-repo.sh        # 在项目根执行，可重复运行，幂等
 - 连续运行两次，`Packages`、`Packages.gz`、`Release`、`index.html`、`depictions/*.html` 哈希完全一致（幂等）。
 - `gzip -t Packages.gz` 通过；`Release` 里的每个 MD5Sum/SHA256 与实际文件相符。
 - 2026-10-24：提交 `376a67c` 推上 `origin/main` 后，Actions 的 `rebuild repo index` #1 与 `pages build and deployment` #4 均 completed successfully（索引未变，因此没有空提交）。
+- 2026-10-24（19 个包）：`Packages` 每个条目的 `Size`/`SHA256` 与磁盘 deb 逐一比对一致，无重复 `Package`，`Release` 的 SHA256 区 21 行（`Packages`+`Packages.gz`+19 个 deb）；连续两次构建哈希一致；线上 `Packages`/`Packages.gz`/`Release`/每个 deb 与本地逐字节相同。
 
 ## 发布 / git
 

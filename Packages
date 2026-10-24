@@ -1,3 +1,72 @@
+Package: cn.zqbb.jailfools
+Name: JailFools
+Section: Applications
+Depends: firmware (>= 15.0)
+Author: zqbb <zqbbzz@gmail.com>
+Maintainer: zqbb <zqbbzz@gmail.com>
+Description: Give me 108 yuan.
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.jailfools
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.jailfools.png
+Architecture: iphoneos-arm64e
+Version: 5.2.3
+Installed-Size: 17696
+Filename: debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
+Size: 4753832
+SHA256: 5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306
+Depiction: https://unknown0actor.github.io/repo/depictions/cn.zqbb.jailfools.html
+
+Package: cn.zqbb.stopautolaunchapps
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台. 
+Maintainer: zqbb
+Author: zqbb
+Name: Hello 3Q
+Conflicts: zp.stopautolaunchapps
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Section: zqbb Tweaks
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 2.5
+Installed-Size: 1120
+Filename: debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
+Size: 254952
+SHA256: 0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa
+Depiction: https://unknown0actor.github.io/repo/depictions/cn.zqbb.stopautolaunchapps.html
+
+Package: com.25mao.leftpan
+Version: 2.0-1
+Section: 辅助插件
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64e
+Installed-Size: 376
+Name: 左滑返回-roothide
+Author: Mao
+Sponsor: admin@25mao.com
+Filename: debs/com.25mao.leftpan_2.0-1_iphoneos-arm64e.deb
+Size: 33790
+SHA256: 9603a25cf193bba482d6cbd45078d1e080f24b6ab5dddb09c72fda1e5499d284
+Depiction: https://unknown0actor.github.io/repo/depictions/com.25mao.leftpan.html
+
+Package: com.25mao.wcplugins
+Name: 微信插件管理
+Version: 0.1-7
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Author: Mao
+Depiction: 
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.25mao.wcplugins_0.1-7_iphoneos-arm64e.deb
+Size: 15160
+SHA256: c96c7d14d03febf1711f41d6f8cd9f6e1c7c1467cc525c97dd2341891b2b26ee
+Depiction: https://unknown0actor.github.io/repo/depictions/com.25mao.wcplugins.html
+
 Package: com.82flex.unseen
 Version: 0.0.6
 Architecture: iphoneos-arm64e
@@ -12,6 +81,147 @@ Filename: debs/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb
 Size: 56366
 SHA256: d4116702be83ddc2c18ee939db394c3de39bc8455d34b77c89e552a5b7311761
 Depiction: https://unknown0actor.github.io/repo/depictions/com.82flex.unseen.html
+
+Package: com.brend0n.nopassafterrespringsafe
+Name: NoPassAfterRespring (Safe)
+Depends: mobilesubstrate
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
+Size: 3404
+SHA256: b1d05b4dda007a15ecfcd2880c88feaff8dd5957e18e559132b094174a3e5083
+Depiction: https://unknown0actor.github.io/repo/depictions/com.brend0n.nopassafterrespringsafe.html
+
+Name: MoreLinesNotifications
+Package: com.cydiageek.morelinesnotifications
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 8.0)
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Description: Increase the Lines for the Notifications!为通知增加更多的行，显示更多的通知！
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 179
+dev: lucaluca86
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e.deb
+Size: 4660
+SHA256: 44777d90061c435fd1c98d25214c636e6bec97e5a4a149c839e234b981ed7acd
+Depiction: https://unknown0actor.github.io/repo/depictions/com.cydiageek.morelinesnotifications.html
+
+Conflicts: ai.akemi.appsyncunified
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Package: com.dao.appsyncunified
+Name: AppSyncUnified(RootHide)
+Description: AppSync Unified 是一款插件，允许用户在其 iOS 设备上自由安装临时签名、伪签名、未签名或过期的 IPA 应用包。
+Section: 嗨-系统
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Architecture: iphoneos-arm64e
+Version: 116.0
+Installed-Size: 508
+Filename: debs/com.dao.appsyncunified_116.0_iphoneos-arm64e.deb
+Size: 30542
+SHA256: f0148bba5280576b49e5b79ec2d6cc2cc8cb679564ef92136b737ca00a5d4a2d
+Depiction: https://unknown0actor.github.io/repo/depictions/com.dao.appsyncunified.html
+
+Package: com.huami.ChoicyConfigPin
+Name: ChoicyConfigPin
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
+Size: 9174
+SHA256: 965e91c11a148be852429e63a3410aa0708b715953a40504b31dc30dbb6e00b2
+Depiction: https://unknown0actor.github.io/repo/depictions/com.huami.ChoicyConfigPin.html
+
+Package: com.huami.actiongesture
+Name: ActionGesture
+Description: Custom gesture actions for the iPhone Action Button 操作按钮的自定手势操作且支持iPhone15系列
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0-3
+Installed-Size: 268
+icon: https://huayuarc.github.io/icon/actiongesture.jpg
+Filename: debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
+Size: 31192
+SHA256: 8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a
+Depiction: https://unknown0actor.github.io/repo/depictions/com.huami.actiongesture.html
+
+Package: com.lenglengyu.passbyccs
+Section: 控制中心
+Maintainer: lenglengyu
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Description: 控制中心模块，临时绕过面容，绕过密码解锁，修改为 FaceID 图标。
+Name: 临时绕过面容 PassbyCC
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/passbycc.html
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/js.json
+Replaces: com.lenglengyu.passbycc
+Provides: com.lenglengyu.passbycc
+Conflicts: com.lenglengyu.passbycc
+icon: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/icon.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.lenglengyu.passbyccs_1.0.2_iphoneos-arm64e.deb
+Size: 131580
+SHA256: b90f932df244166eab315ee8d43d1df9cf94fde0c06e47b01e8f8424b5d96ad9
+Depiction: https://unknown0actor.github.io/repo/depictions/com.lenglengyu.passbyccs.html
+
+Name: 禁用拍照快门声音
+Package: com.netskao.disableshuttersound
+Version: 1.1-2
+Section: Rootless
+Maintainer: Netskao
+Author: Netskao
+Description: 禁用拍照快门声音
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Installed-Size: 149
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
+Size: 4528
+SHA256: f04d864169a126f895f74a7849ad4ec8b57ddc8ce566646d0cc6bf4a00e55180
+Depiction: https://unknown0actor.github.io/repo/depictions/com.netskao.disableshuttersound.html
+
+Package: com.netskao.filzacrack
+Name: Filza Crack
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Filza Crack
+Maintainer: Nets
+Author: Netskao
+Section: Netskao-Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 29372
+SHA256: 002b20fbe93bc4ee706933ccc57a6cd346532d2eda753293c31eb4413f8fe1e0
+Depiction: https://unknown0actor.github.io/repo/depictions/com.netskao.filzacrack.html
 
 Package: com.opa334.crane
 Name: Crane
@@ -30,6 +240,62 @@ Size: 1566520
 SHA256: b45a589e20754abda769a95d42df666d290e7179b0dbebbdda132537b10e76ef
 Depiction: https://unknown0actor.github.io/repo/depictions/com.opa334.crane.html
 
+Package: com.skypain.cclocation
+Name: CCLocation
+Depends: com.opa334.ccsupport
+Description: 控制中心定位开关模块
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Section: Control Center (Modules)
+Icon: https://skypain.github.io/repo/src/cclocation/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=cclocation
+SileoDepiction: https://skypain.github.io/repo/src/cclocation/config/sileo/depiction.json
+Homepage: https://skypain.github.io/repo/
+Architecture: iphoneos-arm64e
+Version: 1.1.0-1
+Installed-Size: 164
+Filename: debs/com.skypain.cclocation_1.1.0-1_iphoneos-arm64e.deb
+Size: 14374
+SHA256: 7e6e5e1de8ad562378a77eabbab1f70251b0f63ecd064e812f79de177020c840
+Depiction: https://unknown0actor.github.io/repo/depictions/com.skypain.cclocation.html
+
+Package: com.skypain.ccvpn
+Name: CCVPN
+Depends: com.opa334.ccsupport
+Description: 控制中心VPN便捷开关模块
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Section: Control Center (Modules)
+Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+SileoDepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+Homepage: https://skypain.github.io/repo/
+Architecture: iphoneos-arm64e
+Version: 1.1.1-2
+Installed-Size: 184
+Filename: debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb
+Size: 30714
+SHA256: dc00988ad5e2533bbc538bd6a6c84bb10704fae44acb1c55519bab0bce25abe4
+Depiction: https://unknown0actor.github.io/repo/depictions/com.skypain.ccvpn.html
+
+Package: com.udevs.dockx
+Name: DockX
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Description: Pasteboard shortcuts on your keyboard dock!
+Maintainer: udevs
+Author: udevs
+Section: Tweaks
+Conflicts: com.restiveconch.actionbar
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Installed-Size: 2036
+Filename: debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
+Size: 415820
+SHA256: 17bbec40c6e8d06627c3d5cb1f2f875f31f80ef5a9e92d306dcd145d64d57f39
+Depiction: https://unknown0actor.github.io/repo/depictions/com.udevs.dockx.html
+
 Package: com.xiaoming.calculator.ccmodule
 Version: 1.0.5
 Architecture: iphoneos-arm64e
@@ -45,4 +311,23 @@ Filename: debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb
 Size: 10000
 SHA256: 5251a51fbdec8a2e15dd840bded3ec92e8cc5451b7bc6b7bffdcbf66fee4f07d
 Depiction: https://unknown0actor.github.io/repo/depictions/com.xiaoming.calculator.ccmodule.html
+
+Package: com.zqbb.limitcharging
+Name: Hello Charging
+Conflicts: zp.limitcharging.rootless
+Description: Hello Charging (限制充电)
+ - Wi-Fi Not Disconnected on Lock Screen (Standby consumes 5% more power)
+ - 锁屏不断Wi-Fi(待机多费电5%)
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.limitcharging
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Installed-Size: 244
+Filename: debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
+Size: 17980
+SHA256: 6356dce48a460622f8cd8f523f0f5085be636894a4b4e38cc8d5f85162aff75f
+Depiction: https://unknown0actor.github.io/repo/depictions/com.zqbb.limitcharging.html
 

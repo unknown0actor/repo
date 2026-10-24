@@ -33,6 +33,8 @@ need grep
 need tr
 need cut
 need wc
+need tar
+need dd
 
 mkdir -p debs depictions
 touch .nojekyll
@@ -48,6 +50,49 @@ file_size() {
 	wc -c < "$1" | tr -d ' '
 }
 
+# 取 control 字段值（$1 = control 文件，$2 = 字段名）
+ctl_field() {
+	sed -n "s/^$2: //p" "$1" | head -n 1
+}
+
+# 把 deb 的 control 文本读进 $2。
+# dpkg 1.21 的 `dpkg-deb -f <deb>` 打印整份 control（`-f <deb> control` 只输出空行）。
+# 有的包把 control.tar 里的 ./control 权限写成 0000，dpkg-deb 会 Permission denied，
+# 这时退回自己解析 ar 成员：取出 control.tar.* 用 tar -O 打到标准输出（不落盘，绕开权限位）。
+deb_control() {
+	_deb="$1"
+	_out="$2"
+	if dpkg-deb -f "$_deb" > "$_out" 2>/dev/null && grep -q '^Package:' "$_out"; then
+		return 0
+	fi
+	_tot="$(file_size "$_deb")"
+	_off=8
+	while [ "$_off" -lt "$_tot" ]; do
+		_hdr="$(dd if="$_deb" bs=1 skip="$_off" count=60 2>/dev/null | tr -d '\000')"
+		_name="$(printf '%s' "$_hdr" | cut -c1-16 | tr -d ' ')"
+		_size="$(printf '%s' "$_hdr" | cut -c49-58 | tr -d ' ')"
+		case "$_size" in
+		'' | *[!0-9]*) return 1 ;;
+		esac
+		case "$_name" in
+		control.tar.gz)
+			dd if="$_deb" bs=1 skip=$((_off + 60)) count="$_size" of="$tmp/ctl.tgz" 2>/dev/null
+			tar xzOf "$tmp/ctl.tgz" ./control > "$_out" 2>/dev/null \
+				|| tar xzOf "$tmp/ctl.tgz" control > "$_out" 2>/dev/null
+			return 0
+			;;
+		control.tar.xz)
+			dd if="$_deb" bs=1 skip=$((_off + 60)) count="$_size" of="$tmp/ctl.txz" 2>/dev/null
+			tar xJOf "$tmp/ctl.txz" ./control > "$_out" 2>/dev/null \
+				|| tar xJOf "$tmp/ctl.txz" control > "$_out" 2>/dev/null
+			return 0
+			;;
+		esac
+		_off=$((_off + 60 + _size + (_size % 2)))
+	done
+	return 1
+}
+
 : > Packages
 : > "$tmp/index.cards"
 
@@ -58,7 +103,7 @@ for deb in debs/*.deb; do
 
 	# control 字段原文：dpkg 1.21 的 `-f <deb>` 打印整个 control，
 	# `-f <deb> control` 只输出一个空行，所以先取整份再去掉开头空行。
-	dpkg-deb -f "$deb" > "$tmp/control"
+	deb_control "$deb" "$tmp/control" || true
 	sed -e '/./,$!d' "$tmp/control" > "$tmp/control.clean"
 	mv "$tmp/control.clean" "$tmp/control"
 	if ! grep -q '^Package:' "$tmp/control"; then
@@ -66,16 +111,20 @@ for deb in debs/*.deb; do
 		continue
 	fi
 
-	pkg="$(dpkg-deb -f "$deb" Package || true)"
+	case "$file" in
+	*[!A-Za-z0-9._+-]*) echo "build-repo: 警告：$file 含空格或非 ASCII 字符，客户端下载要 URL 编码" >&2 ;;
+	esac
+
+	pkg="$(ctl_field "$tmp/control" Package)"
 	[ -n "$pkg" ] || { echo "build-repo: $deb 缺少 Package 字段，跳过" >&2; continue; }
-	ver="$(dpkg-deb -f "$deb" Version || true)"
-	title="$(dpkg-deb -f "$deb" Name || true)"
+	ver="$(ctl_field "$tmp/control" Version)"
+	title="$(ctl_field "$tmp/control" Name)"
 	[ -n "$title" ] || title="$pkg"
-	author="$(dpkg-deb -f "$deb" Author || true)"
-	[ -n "$author" ] || author="$(dpkg-deb -f "$deb" Maintainer || true)"
-	section="$(dpkg-deb -f "$deb" Section || true)"
-	arch="$(dpkg-deb -f "$deb" Architecture || true)"
-	short="$(dpkg-deb -f "$deb" Description 2>/dev/null | head -n 1 || true)"
+	author="$(ctl_field "$tmp/control" Author)"
+	[ -n "$author" ] || author="$(ctl_field "$tmp/control" Maintainer)"
+	section="$(ctl_field "$tmp/control" Section)"
+	arch="$(ctl_field "$tmp/control" Architecture)"
+	short="$(ctl_field "$tmp/control" Description)"
 	slug="$(printf '%s' "$pkg" | tr -c 'A-Za-z0-9._-' '_')"
 
 	size="$(file_size "$deb")"
@@ -96,8 +145,8 @@ for deb in debs/*.deb; do
 	short_html="$(printf '%s' "$short" | esc)"
 	author_html="$(printf '%s' "$author" | esc)"
 	section_html="$(printf '%s' "$section" | esc)"
-	desc_html="$(dpkg-deb -f "$deb" Description \
-		| sed -e 's/^ \.$//' -e 's/^ //' \
+	desc_html="$(sed -n '/^Description:/,/^$/p' "$tmp/control" \
+		| sed -e 's/^Description: //' -e 's/^ \.$//' -e 's/^ //' \
 		| esc \
 		| while IFS= read -r line; do
 			if [ -n "$line" ]; then printf '%s<br>\n' "$line"; fi

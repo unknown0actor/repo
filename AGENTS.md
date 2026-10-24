@@ -37,6 +37,8 @@ sh build-repo.sh        # 在项目根执行，可重复运行，幂等
 - **文件名用纯 ASCII**：`<Package>_<版本>_iphoneos-arm64e.deb`。中文文件名会进 `Packages` 的 `Filename` 和首页链接，客户端要 URL 编码，容易下载失败；改文件名不影响包标识（看 control 的 `Package`），不用重新打包。
   **空格尤其致命**：`Release` 的 MD5Sum/SHA256 行是「哈希 大小 路径」空格分隔，路径带空格整行错位 → 客户端 Hash Sum mismatch。脚本遇到含空格/非 ASCII 的文件名会打警告，但不会自动改名。
 - **control 权限写成 0000 的 deb**：`dpkg-deb -f` 会 Permission denied（`dpkg-deb -I` 报 cannot open 'control'）。脚本的 `deb_control` 会退回自己解析 ar 成员，用 `tar xzOf`/`tar xJOf` 把 control 打到标准输出（不落盘，绕开权限位），这种包照样能收录（例：`com.25mao.leftpan_2.0-1`）。
+- **文件名大小写要跟 control 原文一致**：本机 APFS 不区分大小写，把 `com.huami.ChoicyConfigPin_1.0-2_…deb` 改成全小写后 `git_status` 里看不出任何变化（git 索引里仍是混合大小写），但 GitHub Pages 区分大小写，`Packages` 的 `Filename` 会在线上 404。核对：`grep -a -o 'debs/com\.huami[^ ]*\.deb' .git/index` 与 `ls debs | grep -i huami` 对照，以 control 原文为准。
+- **同一批重复上传**：网页多选上传失败后重传，会出现两个内容完全相同、包名相同的文件（例：`AppSyncUnified(RootHide)-116.0-…deb` 与已有的 `com.dao.appsyncunified_116.0_…deb`，sha256 相同）。用 `cmp -s` 确认后删掉多余的那份，别让同一个包出现两条同版本条目。
 
 批量改名的做法（`dpkg-deb` 读不出 control 的那个用 ar+tar 兜底，或手工按 control 内容命名）：
 
@@ -75,6 +77,7 @@ done
 - `gzip -t Packages.gz` 通过；`Release` 里的每个 MD5Sum/SHA256 与实际文件相符。
 - 2026-10-24：提交 `376a67c` 推上 `origin/main` 后，Actions 的 `rebuild repo index` #1 与 `pages build and deployment` #4 均 completed successfully（索引未变，因此没有空提交）。
 - 2026-10-24（19 个包）：`Packages` 每个条目的 `Size`/`SHA256` 与磁盘 deb 逐一比对一致，无重复 `Package`，`Release` 的 SHA256 区 21 行（`Packages`+`Packages.gz`+19 个 deb）；连续两次构建哈希一致；线上 `Packages`/`Packages.gz`/`Release`/每个 deb 与本地逐字节相同。
+- 2026-10-24（36 个包，35 个不同 `Package`）：17 个新包改名收录、1 个重复上传的文件删除；`Size`/`SHA256` 全部与磁盘一致、同包同版本无重复、`Release` SHA256 区 38 行、`gzip -t` 通过、连续两次构建哈希一致；推送 `9fada8e` 后线上 `Packages`/`Packages.gz`/`Release` 与抽查的 deb 逐字节相同，首页 36 张卡片，CI 没有产生空提交。
 
 ## 发布 / git
 

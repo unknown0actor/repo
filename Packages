@@ -29,6 +29,44 @@ Size: 30542
 SHA256: f0148bba5280576b49e5b79ec2d6cc2cc8cb679564ef92136b737ca00a5d4a2d
 Depiction: https://unknown0actor.github.io/repo/depictions/com.dao.appsyncunified.html
 
+Package: com.jibamao.gaodeclean
+Name: GaodeClean 高德精简
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Maintainer: jibamao
+Author: jibamao
+Section: jibamao-Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.9.29
+Installed-Size: 368
+Filename: debs/GaodeClean 高德精简-0.9.29-iphoneos-arm64e.deb
+Size: 64488
+SHA256: 4f3c34bb787e62a8bf355757d50687cb23de62e3c9ad123b903b77b09b384c69
+Depiction: https://unknown0actor.github.io/repo/depictions/com.jibamao.gaodeclean.html
+
 Package: com.lclrc.hammerits
 Name: Hammer It 翻译
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
@@ -49,6 +87,24 @@ Filename: debs/Hammer It 翻译-1.7.0-iphoneos-arm64e.deb
 Size: 2767754
 SHA256: 782584980e658f7227ef22f43b25813cb2f5418f956f07609d3cd0296ca0e260
 Depiction: https://unknown0actor.github.io/repo/depictions/com.lclrc.hammerits.html
+
+Package: com.82flex.kayoko
+Name: Kayoko
+Description: A smarter clipboard experience that stays close whenever you need it.
+Maintainer: 82Flex <82flex@gmail.com>
+Author: 82Flex <82flex@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Homepage: https://github.com/owngoal-dev/Kayoko
+Architecture: iphoneos-arm64e
+Version: 4.3.3
+Installed-Size: 3176
+Filename: debs/Kayoko-4.3.3-iphoneos-arm64e.deb
+Size: 672334
+SHA256: 3c8fca0ed58c07adc9374db9625118e093245abb93834b702e652382e479be3e
+Depiction: https://unknown0actor.github.io/repo/depictions/com.82flex.kayoko.html
 
 Package: com.mlgm.prefnest
 Name: PrefNest
@@ -333,6 +389,22 @@ Size: 98830
 SHA256: 344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758
 Depiction: https://unknown0actor.github.io/repo/depictions/com.iosdump.jumpselect.html
 
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 11.3
+Installed-Size: 11452
+Filename: debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
+Size: 2601634
+SHA256: 16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75
+Depiction: https://unknown0actor.github.io/repo/depictions/com.iosdump.shellx.html
+
 Package: com.lenglengyu.passbyccs
 Section: 控制中心
 Maintainer: lenglengyu
@@ -531,6 +603,22 @@ Filename: debs/航の微信去广告-1.1-iphoneos-arm64e.deb
 Size: 13504
 SHA256: d59216f4a19c8a4e76f056cd071d7f74799c8012838061772448f5f2a47586de
 Depiction: https://unknown0actor.github.io/repo/depictions/com.hang.wechatnoads.html
+
+Package: com.hang.zzzj
+Name: 转转找鸡
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+Maintainer: hang
+Author: hang
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-8+debug
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/转转找鸡-0.0.1-8+debug-iphoneos-arm64e.deb
+Size: 47406
+SHA256: 136ff8f5fd44f62208076ed493add093e2f0d220ee5a2fda5595b7a0366734aa
+Depiction: https://unknown0actor.github.io/repo/depictions/com.hang.zzzj.html
 
 Package: com.hang.noti
 Name: 通知验证码复制

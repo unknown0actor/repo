@@ -7,11 +7,13 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 6aae7158931998b2c2e68a10694fffd9 22003 Packages
- ee5cf266f58b4fd54689a146aa8d1cf0 6826 Packages.gz
+ 5128d22ad9838d6a3f942400f1f62025 25698 Packages
+ 9ae475a787b970ace43529b1f50d6980 8274 Packages.gz
  0fed3e535b082ec9950bc40f9443f107 8028 debs/3D开关APP消息通知 EasyNotify-1.0.0-iphoneos-arm64e.deb
  9a43d27be11b42735759a1665e516545 30542 debs/AppSyncUnified(RootHide)-116.0-iphoneos-arm64e.deb
+ e93e1889da79f3aa9056777699cfeb6f 64488 debs/GaodeClean 高德精简-0.9.29-iphoneos-arm64e.deb
  daeb14dabefeb181078c31120570b494 2767754 debs/Hammer It 翻译-1.7.0-iphoneos-arm64e.deb
+ 5a0c27fff32ba4610255186fb7b3f47b 672334 debs/Kayoko-4.3.3-iphoneos-arm64e.deb
  380df3359dd98d3898b77622cf53d41b 168036 debs/PrefNest-1.2-iphoneos-arm64e.deb
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/STTool-4.4-iphoneos-arm64e.deb
  41e444ef2536d257b15b418a17a83014 35130 debs/Single VPN-2.1-2-iphoneos-arm64e.deb
@@ -29,6 +31,7 @@ MD5Sum:
  190d6e7def846d515782da0d3bd62937 9174 debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
  f168b96683df459ffa89dc3b99f5d0da 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
  2117af6795e6a197fa4958c0bf9d1bf0 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
+ 875d7936255d0996660a65e605aa1d06 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
  eaf6c4cbb386e98ff7db0c7898fae407 131580 debs/com.lenglengyu.passbyccs_1.0.2_iphoneos-arm64e.deb
  ec75546166a90744f00bd2d9d811b837 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
  5798ff27e050576be10bb790f9c38936 29372 debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
@@ -40,13 +43,16 @@ MD5Sum:
  ae3cceb16c0922ade08fbcff8d13bf90 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/微信净化 2026.04-2026.04-iphoneos-arm64e.deb
  087659744d683a160ca8df88ac82bc0e 13504 debs/航の微信去广告-1.1-iphoneos-arm64e.deb
+ be8085baf53a0e6713c84e918bb1ff77 47406 debs/转转找鸡-0.0.1-8+debug-iphoneos-arm64e.deb
  1d55faf5e48c308692d0017b2471dbe1 10634 debs/通知验证码复制-1.0-iphoneos-arm64e.deb
 SHA256:
- b234266c6244bf9d763cbf7a3eb6e771001ce0329cf5ffb5f2a1efe259c8db50 22003 Packages
- 3ae0b98b621568a3dfe0d628ed455974d601469d613700026e9e78ddc94ced24 6826 Packages.gz
+ 4ee3be4fdb74449a7d79c754d68b684a4f11bf17428ad126fcc3c2374205c806 25698 Packages
+ abe7ef984b5619ac814620877a672f805563c7e36a85dcdef87c57a3d94a1f1b 8274 Packages.gz
  e2362e4e35657dcf5893261a7f7ea8f4d598fe6c5ce29b2cbc22b8265a3fce5c 8028 debs/3D开关APP消息通知 EasyNotify-1.0.0-iphoneos-arm64e.deb
  f0148bba5280576b49e5b79ec2d6cc2cc8cb679564ef92136b737ca00a5d4a2d 30542 debs/AppSyncUnified(RootHide)-116.0-iphoneos-arm64e.deb
+ 4f3c34bb787e62a8bf355757d50687cb23de62e3c9ad123b903b77b09b384c69 64488 debs/GaodeClean 高德精简-0.9.29-iphoneos-arm64e.deb
  782584980e658f7227ef22f43b25813cb2f5418f956f07609d3cd0296ca0e260 2767754 debs/Hammer It 翻译-1.7.0-iphoneos-arm64e.deb
+ 3c8fca0ed58c07adc9374db9625118e093245abb93834b702e652382e479be3e 672334 debs/Kayoko-4.3.3-iphoneos-arm64e.deb
  14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf 168036 debs/PrefNest-1.2-iphoneos-arm64e.deb
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/STTool-4.4-iphoneos-arm64e.deb
  a8c3d0a45b9ff5296986b74b83c9dddaeff0962b215ff7a06a27e6f772b38c34 35130 debs/Single VPN-2.1-2-iphoneos-arm64e.deb
@@ -64,6 +70,7 @@ SHA256:
  965e91c11a148be852429e63a3410aa0708b715953a40504b31dc30dbb6e00b2 9174 debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
  8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
  344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
+ 16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
  b90f932df244166eab315ee8d43d1df9cf94fde0c06e47b01e8f8424b5d96ad9 131580 debs/com.lenglengyu.passbyccs_1.0.2_iphoneos-arm64e.deb
  f04d864169a126f895f74a7849ad4ec8b57ddc8ce566646d0cc6bf4a00e55180 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
  002b20fbe93bc4ee706933ccc57a6cd346532d2eda753293c31eb4413f8fe1e0 29372 debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
@@ -75,4 +82,5 @@ SHA256:
  6356dce48a460622f8cd8f523f0f5085be636894a4b4e38cc8d5f85162aff75f 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  942e57d0791a1339fc5159b1cde09599078730e8b1567681c8d66efe3edc1d69 7996448 debs/微信净化 2026.04-2026.04-iphoneos-arm64e.deb
  d59216f4a19c8a4e76f056cd071d7f74799c8012838061772448f5f2a47586de 13504 debs/航の微信去广告-1.1-iphoneos-arm64e.deb
+ 136ff8f5fd44f62208076ed493add093e2f0d220ee5a2fda5595b7a0366734aa 47406 debs/转转找鸡-0.0.1-8+debug-iphoneos-arm64e.deb
  d60570347db3181ba09f0ad22bfbca57c194f8e1c71d78c25b0fe7abaec78f38 10634 debs/通知验证码复制-1.0-iphoneos-arm64e.deb

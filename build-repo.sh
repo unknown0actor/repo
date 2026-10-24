@@ -2,11 +2,13 @@
 # 从 debs/ 全量重建静态越狱源索引：
 #   Packages / Packages.gz / Packages.bz2 / Release / depictions/*.html / index.html
 # 幂等：输出只取决于 debs/ 的内容；同一输入重复运行字节一致。
+# 源地址：https://unknown0actor.github.io/repo
+# （GitHub Pages，仓库 unknown0actor/repo，分支 main 根目录）
 set -eu
 
 cd "$(dirname "$0")"
 
-REPO_URL="https://unknown.github.io/repo"
+REPO_URL="https://unknown0actor.github.io/repo"
 ORIGIN="unknown"
 LABEL="unknown"
 SUITE="stable"

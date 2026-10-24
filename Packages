@@ -239,6 +239,23 @@ Size: 30542
 SHA256: f0148bba5280576b49e5b79ec2d6cc2cc8cb679564ef92136b737ca00a5d4a2d
 Depiction: https://unknown0actor.github.io/repo/depictions/com.dao.appsyncunified.html
 
+Package: com.dao.griddy
+Name: Griddy 随意摆(RootHide)
+Description: 让你的程序图标在桌面随意摆放。
+Maintainer: mikifp
+Author: mikifp
+Section: 嗨-工具
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/griddy/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Installed-Size: 236
+Filename: debs/com.dao.griddy_1.2.3_iphoneos-arm64e.deb
+Size: 16644
+SHA256: 6377029690bfbee188482434019ef2d8749ce769e26753d57b09c9ed26f2ddd2
+Depiction: https://unknown0actor.github.io/repo/depictions/com.dao.griddy.html
+
 Package: com.dao.tslite
 Name: TrollStoreLite(RootHide)
 Description: 白巨魔，越狱专用的APP安装器，Relaxin(隐根)优化版，支持中英文翻译。
@@ -423,6 +440,25 @@ Size: 2767754
 SHA256: 782584980e658f7227ef22f43b25813cb2f5418f956f07609d3cd0296ca0e260
 Depiction: https://unknown0actor.github.io/repo/depictions/com.lclrc.hammerits.html
 
+Package: com.lenglengyu.ghallownetwork
+Name: Allow Network
+Author: lenglengyu
+Description: 国行手机自动允许使用网络。
+Depends: mobilesubstrate
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/ghallownetworksileo
+Version: 0.0.1
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.lenglengyu.ghallownetwork_0.0.1_iphoneos-arm64e.deb
+Size: 7972
+SHA256: 34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da
+Depiction: https://unknown0actor.github.io/repo/depictions/com.lenglengyu.ghallownetwork.html
+
 Package: com.lenglengyu.passbyccs
 Section: 控制中心
 Maintainer: lenglengyu
@@ -444,6 +480,26 @@ Size: 131580
 SHA256: b90f932df244166eab315ee8d43d1df9cf94fde0c06e47b01e8f8424b5d96ad9
 Depiction: https://unknown0actor.github.io/repo/depictions/com.lenglengyu.passbyccs.html
 
+Package: com.mikotohelper.wechat
+Version: 1.3.6-V10-0
+Section: 微信插件
+Priority: optional
+Architecture: iphoneos-arm64e
+Conflicts: mikotohelper
+Essential: no
+Maintainer: Mikoto
+Depends: mobilesubstrate
+Description: 微信多功能插件
+Name: Mikoto 助手
+Author: Mikoto
+Icon: https://TrollStoreX.Github.io/sileodepiction/MikotoHelper/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/MikotoHelper/js.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mikotohelper.wechat_1.3.6-V10-0_iphoneos-arm64e.deb
+Size: 20062312
+SHA256: 0d805d8a56da139847a26b3580544fc41f791d3446a707326875f73705565a23
+Depiction: https://unknown0actor.github.io/repo/depictions/com.mikotohelper.wechat.html
+
 Package: com.mlgm.prefnest
 Name: PrefNest
 Description: 整理设置首页，集中收纳越狱插件。
@@ -459,6 +515,22 @@ Filename: debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
 Size: 168036
 SHA256: 14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf
 Depiction: https://unknown0actor.github.io/repo/depictions/com.mlgm.prefnest.html
+
+Package: com.nan.disableupdates
+Name: Disable Updates
+Section: System
+Author: zhaonan
+Maintainer: zhaonan
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Pre-Depends: file-cmds
+Description: 通过锁定 /var/MobileSoftwareUpdate/MobileAsset/AssetsV2 来阻止系统更新
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.disableupdates/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+Filename: debs/com.nan.disableupdates_0.1.1_iphoneos-arm64e.deb
+Size: 1124
+SHA256: 6e25acd15098c1aab8263d105766782b0d6da11817115cca0035c06e609a29a0
+Depiction: https://unknown0actor.github.io/repo/depictions/com.nan.disableupdates.html
 
 Name: 禁用拍照快门声音
 Package: com.netskao.disableshuttersound
@@ -658,4 +730,21 @@ Filename: debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
 Size: 7996448
 SHA256: 942e57d0791a1339fc5159b1cde09599078730e8b1567681c8d66efe3edc1d69
 Depiction: https://unknown0actor.github.io/repo/depictions/netskao.wechatpurifications.html
+
+Package: xyz.cypwn.camscanner
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/2629
+Icon: https://repo.cypwn.xyz/packages/camscanner-Rootless/icon.png
+Name: CamScanner
+Architecture: iphoneos-arm64e
+Description: CamScanner 扫描全能王解锁部分功能
+Author: sopranox
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 0.0.1
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
+Size: 9846
+SHA256: 8977fcbc8bc6bf8a6901cdf06aba5c5e21a2379267961fbbf6ef4b2c224fc676
+Depiction: https://unknown0actor.github.io/repo/depictions/xyz.cypwn.camscanner.html
 

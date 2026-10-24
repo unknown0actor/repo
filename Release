@@ -7,10 +7,14 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 49c4ea2becd6a39d89bef4bdc24612d2 517 Packages
- 79181b29b120363938773be1daadba15 368 Packages.gz
+ 3081c215a8dc562c9884cfc09a10e96d 1927 Packages
+ 760e53469a790ec55349f8149e03e58c 865 Packages.gz
  2dc90a31e139ba187d10c626c1eb5643 56366 debs/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb
+ 0a58a001c78795d8b99398dab32203bd 1566520 debs/com.opa334.crane_1.3.18-2_iphoneos-arm64e.deb
+ d5a9e965ea301fb05faaac218e9e2e9b 10000 debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb
 SHA256:
- 6e9bab531dae5b35c8ce294db348a0c7c83a83e60bb9809868ac58a1ee9856c0 517 Packages
- 0daad4d78968f5e2822139cc7b40b8b7985e68f49440e8642b9776cfb8aa31b5 368 Packages.gz
+ 60aee8adf53c4338a05203be8a44b1b46a4e27e1ae8287de4ef72af98f0a77cb 1927 Packages
+ 071d011eec0a02b57ad15ad391c88661f4e3a1a7197c751f77fba20385301c7b 865 Packages.gz
  d4116702be83ddc2c18ee939db394c3de39bc8455d34b77c89e552a5b7311761 56366 debs/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb
+ b45a589e20754abda769a95d42df666d290e7179b0dbebbdda132537b10e76ef 1566520 debs/com.opa334.crane_1.3.18-2_iphoneos-arm64e.deb
+ 5251a51fbdec8a2e15dd840bded3ec92e8cc5451b7bc6b7bffdcbf66fee4f07d 10000 debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb

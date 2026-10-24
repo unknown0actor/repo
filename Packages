@@ -13,3 +13,36 @@ Size: 56366
 SHA256: d4116702be83ddc2c18ee939db394c3de39bc8455d34b77c89e552a5b7311761
 Depiction: https://unknown0actor.github.io/repo/depictions/com.82flex.unseen.html
 
+Package: com.opa334.crane
+Name: Crane
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Description: Multiple containers for your applications!
+Maintainer: opa334
+Author: opa334
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.18-2
+Installed-Size: 3268
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.opa334.crane_1.3.18-2_iphoneos-arm64e.deb
+Size: 1566520
+SHA256: b45a589e20754abda769a95d42df666d290e7179b0dbebbdda132537b10e76ef
+Depiction: https://unknown0actor.github.io/repo/depictions/com.opa334.crane.html
+
+Package: com.xiaoming.calculator.ccmodule
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Section: Addons
+Priority: optional
+Maintainer: XiaomingCalc CC
+Author: XiaomingCalc CC
+Name: 小明计算器控制中心
+Description: 控制中心一键打开小明计算器 (com.xiaoming.calculator)
+Depends: firmware (>= 16.0), com.opa334.ccsupport
+Installed-Size: 76
+Filename: debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb
+Size: 10000
+SHA256: 5251a51fbdec8a2e15dd840bded3ec92e8cc5451b7bc6b7bffdcbf66fee4f07d
+Depiction: https://unknown0actor.github.io/repo/depictions/com.xiaoming.calculator.ccmodule.html
+

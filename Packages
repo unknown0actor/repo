@@ -476,6 +476,28 @@ Size: 4528
 SHA256: f04d864169a126f895f74a7849ad4ec8b57ddc8ce566646d0cc6bf4a00e55180
 Depiction: https://unknown0actor.github.io/repo/depictions/com.netskao.disableshuttersound.html
 
+Package: com.netskao.dumpdecrypters
+Name: DumpDecrypter 砸壳
+Description: 砸壳 App Store 应用插件
+ * 支持砸壳小组件和分享组件
+ * 动态砸壳，可能会闪退，无法砸小组件
+ * Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
+Section: Bootstrap
+Depends: firmware (>= 15.0), mobilesubstrate
+Author: Netskao
+Maintainer: Nets
+Architecture: iphoneos-arm64e
+Version: 1.5-1
+Installed-Size: 848
+icon: https://TrollStoreX.Github.io/sileodepiction/Dumpdecrypter/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Dumpdecrypter/js.json
+Conflicts: com.netskao.dumpdecrypter, byg.iosios.net.dumpbinaryfiles-rootless, com.dao.dumpdecrypter
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.netskao.dumpdecrypters_1.5-1_iphoneos-arm64e.deb
+Size: 535854
+SHA256: 6eaa1d4a4320a3014b669079d98da35de79f77eb987a52641e6c34b97dd5755e
+Depiction: https://unknown0actor.github.io/repo/depictions/com.netskao.dumpdecrypters.html
+
 Package: com.netskao.filzacrack
 Name: Filza Crack
 Depends: firmware (>= 15.0), mobilesubstrate

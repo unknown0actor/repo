@@ -32,6 +32,10 @@ sh build-repo.sh        # 在项目根执行，可重复运行，幂等
 新增包：把 `xxx.deb` 放进 `debs/` 后重跑脚本即可，`Packages`、`Release`、`depictions/`、`index.html` 一起更新。
 源地址写在脚本头部 `REPO_URL`，换域名只改那里，然后重跑脚本。
 
+两个坑（2026-10-24 实际踩过）：
+- **必须在 `debs/` 目录里上传**。网页从仓库根目录上传的 deb 只是多了个文件：脚本扫的是 `debs/*.deb`，CI 只监听 `debs/**`，都不会被收录。补救办法是把根目录的 deb `mv` 进 `debs/`，重跑脚本后提交。
+- **文件名用纯 ASCII**：`<Package>_<版本>_iphoneos-arm64e.deb`。中文文件名会进 `Packages` 的 `Filename` 和首页链接，客户端要 URL 编码，容易下载失败；改文件名不影响包标识（看 control 的 `Package`），不用重新打包。
+
 `NO_BZ2=1 sh build-repo.sh` 可强制不生成 `Packages.bz2`（本机没有 bzip2 时本来就是这行为；CI 里这样跑可与本机输出逐字节一致）。
 
 ## 零终端上传（GitHub Actions）

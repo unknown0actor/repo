@@ -1,0 +1,15 @@
+Package: com.82flex.unseen
+Version: 0.0.6
+Architecture: iphoneos-arm64e
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Name: Unseen
+Author: 82flex
+Maintainer: 82flex
+Section: Tweaks
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate
+Installed-Size: 337
+Filename: debs/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb
+Size: 56366
+SHA256: d4116702be83ddc2c18ee939db394c3de39bc8455d34b77c89e552a5b7311761
+Depiction: https://unknown.github.io/repo/depictions/com.82flex.unseen.html
+

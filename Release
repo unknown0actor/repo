@@ -1,0 +1,16 @@
+Origin: unknown
+Label: unknown
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
+MD5Sum:
+ 929075a701af858db57fc1331ec5077f 511 Packages
+ 0759a084542ff485a9a01ab0fcbecd42 365 Packages.gz
+ 2dc90a31e139ba187d10c626c1eb5643 56366 debs/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb
+SHA256:
+ 69e8c6aec1d9482df84224d1e4967ff7c75ed98dc2d98dc8feacfcb63cbe1128 511 Packages
+ 635e796a3b41064deff786e919eef7b166dcb2f87e908142e18847ced28903c6 365 Packages.gz
+ d4116702be83ddc2c18ee939db394c3de39bc8455d34b77c89e552a5b7311761 56366 debs/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb

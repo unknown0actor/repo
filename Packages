@@ -1,3 +1,119 @@
+Package: com.snail.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Name: 3D开关APP消息通知 EasyNotify
+Description: 按压APP图标3D Touch菜单快速开关消息通知。此为rootless版本，不要安装错哦~
+Depends: mobilesubstrate
+Installed-Size: 152
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/EasyNotify.jpg
+Filename: debs/3D开关APP消息通知 EasyNotify-1.0.0-iphoneos-arm64e.deb
+Size: 8028
+SHA256: e2362e4e35657dcf5893261a7f7ea8f4d598fe6c5ce29b2cbc22b8265a3fce5c
+Depiction: https://unknown0actor.github.io/repo/depictions/com.snail.easynotify.rootless.html
+
+Conflicts: ai.akemi.appsyncunified
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Package: com.dao.appsyncunified
+Name: AppSyncUnified(RootHide)
+Description: AppSync Unified 是一款插件，允许用户在其 iOS 设备上自由安装临时签名、伪签名、未签名或过期的 IPA 应用包。
+Section: 嗨-系统
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Architecture: iphoneos-arm64e
+Version: 116.0
+Installed-Size: 508
+Filename: debs/AppSyncUnified(RootHide)-116.0-iphoneos-arm64e.deb
+Size: 30542
+SHA256: f0148bba5280576b49e5b79ec2d6cc2cc8cb679564ef92136b737ca00a5d4a2d
+Depiction: https://unknown0actor.github.io/repo/depictions/com.dao.appsyncunified.html
+
+Package: com.lclrc.hammerits
+Name: Hammer It 翻译
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Description: 控制您的文本或根据您的意愿进行翻译。
+ * 支持Twitter Telegram Discord Sileo 等快捷翻译
+ * Control your text or translate as you wish.
+Maintainer: lclrc(SquidForce)
+Author: lclrc(SquidForce)
+Section: Bootstrap
+Icon: https://TrollStoreX.Github.io/sileodepiction/Hammerit/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Hammerit/js.json
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Installed-Size: 3808
+Conflicts: com.lclrc.hammerit
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/Hammer It 翻译-1.7.0-iphoneos-arm64e.deb
+Size: 2767754
+SHA256: 782584980e658f7227ef22f43b25813cb2f5418f956f07609d3cd0296ca0e260
+Depiction: https://unknown0actor.github.io/repo/depictions/com.lclrc.hammerits.html
+
+Package: com.mlgm.prefnest
+Name: PrefNest
+Description: 整理设置首页，集中收纳越狱插件。
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 872
+Filename: debs/PrefNest-1.2-iphoneos-arm64e.deb
+Size: 168036
+SHA256: 14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf
+Depiction: https://unknown0actor.github.io/repo/depictions/com.mlgm.prefnest.html
+
+Package: cn.llld.snapshottool
+Name: STTool
+Author: 来了老弟
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: rootless应用插件
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+Architecture: iphoneos-arm64e
+Version: 4.4
+Installed-Size: 1092
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/STTool-4.4-iphoneos-arm64e.deb
+Size: 524638
+SHA256: 3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f
+Depiction: https://unknown0actor.github.io/repo/depictions/cn.llld.snapshottool.html
+
+Package: com.82flex.singlevpn
+Name: Single VPN
+Description: Combine VPN state and wireless state into one icon.
+Maintainer: 82Flex <82flex@gmail.com>
+Author: 82Flex <82flex@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.1-2
+Installed-Size: 420
+Filename: debs/Single VPN-2.1-2-iphoneos-arm64e.deb
+Size: 35130
+SHA256: a8c3d0a45b9ff5296986b74b83c9dddaeff0962b215ff7a06a27e6f772b38c34
+Depiction: https://unknown0actor.github.io/repo/depictions/com.82flex.singlevpn.html
+
+Package: com.dao.tslite
+Name: TrollStoreLite(RootHide)
+Description: 白巨魔，越狱专用的APP安装器，Relaxin(隐根)优化版，支持中英文翻译。
+Maintainer: opa334
+Author: opa334
+Section: 嗨-工具
+Conflicts: com.opa334.trollstorelite
+Architecture: iphoneos-arm64e
+Version: 2.1.1-2
+Installed-Size: 3948
+Filename: debs/TrollStoreLite(RootHide)-2.1.1-2-iphoneos-arm64e.deb
+Size: 1766918
+SHA256: aba952aa5125aa65cf0ab09ef73c6c1ed330d818547a9a7a8873fa9e398b6fa0
+Depiction: https://unknown0actor.github.io/repo/depictions/com.dao.tslite.html
+
 Package: cn.zqbb.jailfools
 Name: JailFools
 Section: Applications
@@ -81,6 +197,38 @@ Filename: debs/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb
 Size: 56366
 SHA256: d4116702be83ddc2c18ee939db394c3de39bc8455d34b77c89e552a5b7311761
 Depiction: https://unknown0actor.github.io/repo/depictions/com.82flex.unseen.html
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-1
+Installed-Size: 3136
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.be-huge.floating-view_1.6.0-1_iphoneos-arm64e.deb
+Size: 1658086
+SHA256: ea756ca67a9fbd01b70bbeb932ec12d02153968df56230d1a47ca4955f79cc91
+Depiction: https://unknown0actor.github.io/repo/depictions/com.be-huge.floating-view.html
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 1771730
+SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
+Depiction: https://unknown0actor.github.io/repo/depictions/com.be-huge.floating-view.html
 
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)
@@ -169,6 +317,21 @@ Filename: debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
 Size: 31192
 SHA256: 8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a
 Depiction: https://unknown0actor.github.io/repo/depictions/com.huami.actiongesture.html
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 612
+Filename: debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
+Size: 98830
+SHA256: 344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758
+Depiction: https://unknown0actor.github.io/repo/depictions/com.iosdump.jumpselect.html
 
 Package: com.lenglengyu.passbyccs
 Section: 控制中心
@@ -330,4 +493,57 @@ Filename: debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
 Size: 17980
 SHA256: 6356dce48a460622f8cd8f523f0f5085be636894a4b4e38cc8d5f85162aff75f
 Depiction: https://unknown0actor.github.io/repo/depictions/com.zqbb.limitcharging.html
+
+Author: Netskao
+Maintainer: BigBoss
+Name: 微信净化 2026.04
+Package: netskao.wechatpurifications
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Section: 微信插件
+Installed-Size: 23256
+Version: 2026.04
+Architecture: iphoneos-arm64e
+Description: 微信净化 2026.04 版本
+ * 还原聊天本质，干净的微信给你
+ * 2026 年基于 2023 年最终版重新编译，仅优化防止热更新导致的功能失效，未修复任何因微信版本更新出现的问题
+ * 如需私有版(¥68.00)可联系 admin@initnil.com 进行了解
+Conflicts: netskao.wechatpurification
+icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/微信净化 2026.04-2026.04-iphoneos-arm64e.deb
+Size: 7996448
+SHA256: 942e57d0791a1339fc5159b1cde09599078730e8b1567681c8d66efe3edc1d69
+Depiction: https://unknown0actor.github.io/repo/depictions/netskao.wechatpurifications.html
+
+Package: com.hang.wechatnoads
+Name: 航の微信去广告
+Description: 微信去广告（公众号/朋友圈/小程序/搜索/视频号/订阅号），无开关注入即生效
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 92
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/航の微信去广告-1.1-iphoneos-arm64e.deb
+Size: 13504
+SHA256: d59216f4a19c8a4e76f056cd071d7f74799c8012838061772448f5f2a47586de
+Depiction: https://unknown0actor.github.io/repo/depictions/com.hang.wechatnoads.html
+
+Package: com.hang.noti
+Name: 通知验证码复制
+Description: 双指长按通知取通知中的验证码。
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 92
+Filename: debs/通知验证码复制-1.0-iphoneos-arm64e.deb
+Size: 10634
+SHA256: d60570347db3181ba09f0ad22bfbca57c194f8e1c71d78c25b0fe7abaec78f38
+Depiction: https://unknown0actor.github.io/repo/depictions/com.hang.noti.html
 

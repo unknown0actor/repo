@@ -42,8 +42,9 @@ sh build-repo.sh        # 在项目根执行，可重复运行，幂等
 2. 等约一分钟，Action 跑 `NO_BZ2=1 sh build-repo.sh` 并提交 `Packages`、`Packages.gz`、`Release`、`depictions/`、`index.html`；
 3. 在 Actions 页面看绿灯即完成；`Packages`/`Release`/`index.html` 没有变化时工作流不会产生空提交。
 
-前提：仓库 Settings ▸ Actions ▸ General 里允许 Actions，且 Workflow permissions 为 Read and write
-（工作流已声明 `permissions: contents: write`）。若被组织策略禁止，退回本机流程：放 deb → `sh build-repo.sh` → 让 Apelin 提交推送。
+前提：仓库 Settings ▸ Actions ▸ General 里允许 Actions（Allow all actions），且 Workflow permissions 为 Read and write。
+2026-10-24 已在网页上核对并保存为 Read and write（保存成功提示：Default workflow permissions settings saved）。
+若被组织策略禁止，退回本机流程：放 deb → `sh build-repo.sh` → 让 Apelin 提交推送。
 
 设备相关的两个坑（已在脚本里处理）：dpkg 1.21 的 `dpkg-deb -f <deb> control` 只输出一个空行，要用
 `dpkg-deb -f <deb>` 取整份 control 再去掉开头空行；脚本不用 awk。
@@ -53,12 +54,15 @@ sh build-repo.sh        # 在项目根执行，可重复运行，幂等
 - `sha256sum debs/<deb>` 与源文件 `/var/mobile/Documents/com.82flex.unseen_0.0.6_iphoneos-arm64e.deb` 一致（d4116702…1761），deb 未改动。
 - 连续运行两次，`Packages`、`Packages.gz`、`Release`、`index.html`、`depictions/*.html` 哈希完全一致（幂等）。
 - `gzip -t Packages.gz` 通过；`Release` 里的每个 MD5Sum/SHA256 与实际文件相符。
+- 2026-10-24：提交 `376a67c` 推上 `origin/main` 后，Actions 的 `rebuild repo index` #1 与 `pages build and deployment` #4 均 completed successfully（索引未变，因此没有空提交）。
 
 ## 发布 / git
 
 本设备**没有 git 可执行文件**，仓库历史只能由 Apelin 的 git 工具（`git_status` / `git_stage` / `git_commit` / `git_push` / `git_fetch`）操作：
 
-- 凭据：github.com 的 HTTPS token 存在 Apelin keychain（Settings ▸ Git，账号 `unknown0actor`）。
+- 凭据：github.com 的 HTTPS token 存在 Apelin keychain（Settings ▸ Git，账号 `unknown0actor`），是 classic PAT，勾选 `repo` + `workflow`，有效期到 2026-11-23。
+  **推送 `.github/workflows/` 下的文件必须带 `workflow` 权限**，否则 GitHub 拒绝（refusing to allow a Personal Access Token to create or update workflow）。
+  过期后按同样方式在网页新建 token，再用 `git_save_credential` 覆写，不要动 remote URL。
 - 提交作者：`unknown0actor <unknown0actor@users.noreply.github.com>`。
 - `git_clone` 对**空仓库**会失败（`the repository has no branch to check out`），所以首次推送前在项目根手工建了最小 `.git`
   （`HEAD` → `refs/heads/main`、`config` 里 `remote.origin.url` 与 `branch.main`、空的 `objects/`、`refs/`）；之后一切走上面的工具。

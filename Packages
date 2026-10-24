@@ -182,6 +182,24 @@ Size: 3404
 SHA256: b1d05b4dda007a15ecfcd2880c88feaff8dd5957e18e559132b094174a3e5083
 Depiction: https://unknown0actor.github.io/repo/depictions/com.brend0n.nopassafterrespringsafe.html
 
+Package: com.crctdd.filzarename
+Name: Filza Rename
+Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.filzadebname
+Replaces: com.crctdd.filzadebname
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 96
+Filename: debs/com.crctdd.filzarename_0.0.1_iphoneos-arm64e.deb
+Size: 17000
+SHA256: bc41f7acdae11db2ea806950267dfaa0e506214aa3732924dc6a20d12bae0a63
+Depiction: https://unknown0actor.github.io/repo/depictions/com.crctdd.filzarename.html
+
 Name: MoreLinesNotifications
 Package: com.cydiageek.morelinesnotifications
 Priority: optional

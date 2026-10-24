@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 7615dd73745e89cc2034de7fd8cac6dd 24972 Packages
- 08bbdd9c8e8e2d6d4f14299d635b61c0 8251 Packages.gz
+ b7392be4f1b3a8e3e923b98c24777277 25586 Packages
+ 05a729e5948b45b2e4cae7114b4ff3ff 8413 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -20,6 +20,7 @@ MD5Sum:
  483966f7137c3b363c3d1986c8ac6c72 1658086 debs/com.be-huge.floating-view_1.6.0-1_iphoneos-arm64e.deb
  cba48e5bea1e58f68bdb28b3b73e4c23 1771730 debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
  009ac62354e087b0e47e6d901c2a670d 3404 debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
+ 6f6a337ba2b043aa4bf58ce471438506 17000 debs/com.crctdd.filzarename_0.0.1_iphoneos-arm64e.deb
  fe8caade2db1c73653f92191f2474098 4660 debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e.deb
  9a43d27be11b42735759a1665e516545 30542 debs/com.dao.appsyncunified_116.0_iphoneos-arm64e.deb
  38b24e7e4387ea981ab6b6730217ef58 1766918 debs/com.dao.tslite_2.1.1-2_iphoneos-arm64e.deb
@@ -45,8 +46,8 @@ MD5Sum:
  ae3cceb16c0922ade08fbcff8d13bf90 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
 SHA256:
- d80a63e9aa437b457e18987298cdb2643e48b6add7d11d1953e1c3fc1950c003 24972 Packages
- 507ac53658610bbf3dba6098b60f0dd60e5f34e1af4fc7a92d1a74143cf42fb8 8251 Packages.gz
+ 1c74503ef991cd6535ff5c7f1181a95d9b6575315805cb8e17c87c6458892837 25586 Packages
+ f5c8de623757ad35bde63204831183665523eaeac1a260e1a7cea0b9fbac81ef 8413 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -58,6 +59,7 @@ SHA256:
  ea756ca67a9fbd01b70bbeb932ec12d02153968df56230d1a47ca4955f79cc91 1658086 debs/com.be-huge.floating-view_1.6.0-1_iphoneos-arm64e.deb
  7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4 1771730 debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
  b1d05b4dda007a15ecfcd2880c88feaff8dd5957e18e559132b094174a3e5083 3404 debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
+ bc41f7acdae11db2ea806950267dfaa0e506214aa3732924dc6a20d12bae0a63 17000 debs/com.crctdd.filzarename_0.0.1_iphoneos-arm64e.deb
  44777d90061c435fd1c98d25214c636e6bec97e5a4a149c839e234b981ed7acd 4660 debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e.deb
  f0148bba5280576b49e5b79ec2d6cc2cc8cb679564ef92136b737ca00a5d4a2d 30542 debs/com.dao.appsyncunified_116.0_iphoneos-arm64e.deb
  aba952aa5125aa65cf0ab09ef73c6c1ed330d818547a9a7a8873fa9e398b6fa0 1766918 debs/com.dao.tslite_2.1.1-2_iphoneos-arm64e.deb

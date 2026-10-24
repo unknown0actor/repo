@@ -214,7 +214,10 @@ EOF
 
 # 5) 压缩索引
 gzip -9 -n -c Packages > Packages.gz
-if command -v bzip2 >/dev/null 2>&1; then
+if [ "${NO_BZ2:-0}" = "1" ]; then
+	# 让本机与云端（CI 有 bzip2）产出完全一致时用：NO_BZ2=1 sh build-repo.sh
+	rm -f Packages.bz2
+elif command -v bzip2 >/dev/null 2>&1; then
 	bzip2 -9 -c Packages > Packages.bz2
 else
 	rm -f Packages.bz2

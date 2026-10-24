@@ -32,6 +32,19 @@ sh build-repo.sh        # 在项目根执行，可重复运行，幂等
 新增包：把 `xxx.deb` 放进 `debs/` 后重跑脚本即可，`Packages`、`Release`、`depictions/`、`index.html` 一起更新。
 源地址写在脚本头部 `REPO_URL`，换域名只改那里，然后重跑脚本。
 
+`NO_BZ2=1 sh build-repo.sh` 可强制不生成 `Packages.bz2`（本机没有 bzip2 时本来就是这行为；CI 里这样跑可与本机输出逐字节一致）。
+
+## 零终端上传（GitHub Actions）
+
+`.github/workflows/rebuild.yml` 会在 `debs/` 变更后于云端重建索引并自动提交回来：
+
+1. GitHub App 或网页进入仓库 → `debs/` → Add file ▸ Upload files → 选 `.deb` → Commit changes；
+2. 等约一分钟，Action 跑 `NO_BZ2=1 sh build-repo.sh` 并提交 `Packages`、`Packages.gz`、`Release`、`depictions/`、`index.html`；
+3. 在 Actions 页面看绿灯即完成；`Packages`/`Release`/`index.html` 没有变化时工作流不会产生空提交。
+
+前提：仓库 Settings ▸ Actions ▸ General 里允许 Actions，且 Workflow permissions 为 Read and write
+（工作流已声明 `permissions: contents: write`）。若被组织策略禁止，退回本机流程：放 deb → `sh build-repo.sh` → 让 Apelin 提交推送。
+
 设备相关的两个坑（已在脚本里处理）：dpkg 1.21 的 `dpkg-deb -f <deb> control` 只输出一个空行，要用
 `dpkg-deb -f <deb>` 取整份 control 再去掉开头空行；脚本不用 awk。
 

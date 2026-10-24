@@ -13,6 +13,20 @@ Size: 8028
 SHA256: e2362e4e35657dcf5893261a7f7ea8f4d598fe6c5ce29b2cbc22b8265a3fce5c
 Depiction: https://unknown0actor.github.io/repo/depictions/com.snail.easynotify.rootless.html
 
+Package: com.zero.amapadblock
+Name: 高德地图去广告
+Version: 3.5.0
+Architecture: iphoneos-arm64
+Description: 过滤高德地图开屏广告与各页面推广（Loon 规则转 deb，JSCore 原样执行）
+Maintainer: zero
+Author: zero
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.7100)
+Filename: debs/AmapAdBlock_3.5.0_roothide.deb
+Size: 41338
+SHA256: 8fad16dcc6d9057d4fc491e0e026b380f983118a923143176d9d69a9c3df895d
+Depiction: https://unknown0actor.github.io/repo/depictions/com.zero.amapadblock.html
+
 Conflicts: ai.akemi.appsyncunified
 Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
 Maintainer: Karen/あけみ <karen@akemi.ai>

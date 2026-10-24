@@ -578,20 +578,6 @@ Size: 10000
 SHA256: 5251a51fbdec8a2e15dd840bded3ec92e8cc5451b7bc6b7bffdcbf66fee4f07d
 Depiction: https://unknown0actor.github.io/repo/depictions/com.xiaoming.calculator.ccmodule.html
 
-Package: com.zero.amapadblock
-Name: 高德地图去广告
-Version: 3.5.0
-Architecture: iphoneos-arm64
-Description: 过滤高德地图开屏广告与各页面推广（Loon 规则转 deb，JSCore 原样执行）
-Maintainer: zero
-Author: zero
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.7100)
-Filename: debs/com.zero.amapadblock_3.5.0_iphoneos-arm64.deb
-Size: 41338
-SHA256: 8fad16dcc6d9057d4fc491e0e026b380f983118a923143176d9d69a9c3df895d
-Depiction: https://unknown0actor.github.io/repo/depictions/com.zero.amapadblock.html
-
 Package: com.zqbb.limitcharging
 Name: Hello Charging
 Conflicts: zp.limitcharging.rootless

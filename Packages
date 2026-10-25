@@ -182,6 +182,21 @@ Size: 3404
 SHA256: b1d05b4dda007a15ecfcd2880c88feaff8dd5957e18e559132b094174a3e5083
 Depiction: https://unknown0actor.github.io/repo/depictions/com.brend0n.nopassafterrespringsafe.html
 
+Package: com.chr1s.newtab
+Name: NewTab
+Description: Add newtab shortcut to safari toolbar
+Maintainer: Chr1s
+Author: Chr1s
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 156
+Filename: debs/com.chr1s.newtab_1.1_iphoneos-arm64e.deb
+Size: 6254
+SHA256: 0f0c1cba1a0bb6a737798cea4d15e3b7eaa167942b7672881da963eeafe631aa
+Depiction: https://unknown0actor.github.io/repo/depictions/com.chr1s.newtab.html
+
 Package: com.crctdd.filzarename
 Name: Filza Rename
 Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。

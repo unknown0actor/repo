@@ -500,6 +500,25 @@ Size: 20062312
 SHA256: 0d805d8a56da139847a26b3580544fc41f791d3446a707326875f73705565a23
 Depiction: https://unknown0actor.github.io/repo/depictions/com.mikotohelper.wechat.html
 
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.2
+Installed-Size: 3500
+Filename: debs/com.mlgm.kayoko_5.0.2_iphoneos-arm64e.deb
+Size: 744842
+SHA256: 41e84cec1bd24f6e8f6fde20b628f158ee9d03d3343eabd735a6d8fc18df986d
+Depiction: https://unknown0actor.github.io/repo/depictions/com.mlgm.kayoko.html
+
 Package: com.mlgm.prefnest
 Name: PrefNest
 Description: 整理设置首页，集中收纳越狱插件。

@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- eea7ea6216037b69aa7305f09971c3e6 32845 Packages
- f247c0ecb63178a5ab6947f703c41e87 10004 Packages.gz
+ 2771e283c90e31870b2266bfa536d1ec 31206 Packages
+ e6e9d2cd9d922adfc0fc355be13d1381 9147 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -33,7 +33,6 @@ MD5Sum:
  f168b96683df459ffa89dc3b99f5d0da 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
  2117af6795e6a197fa4958c0bf9d1bf0 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
  875d7936255d0996660a65e605aa1d06 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
- e93e1889da79f3aa9056777699cfeb6f 64488 debs/com.jibamao.gaodeclean_0.9.29_iphoneos-arm64e.deb
  daeb14dabefeb181078c31120570b494 2767754 debs/com.lclrc.hammerits_1.7.0_iphoneos-arm64e.deb
  61e194e670f34229b51875af4d1328c6 7972 debs/com.lenglengyu.ghallownetwork_0.0.1_iphoneos-arm64e.deb
  eaf6c4cbb386e98ff7db0c7898fae407 131580 debs/com.lenglengyu.passbyccs_1.0.2_iphoneos-arm64e.deb
@@ -56,8 +55,8 @@ MD5Sum:
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- b98f5c61f1cc36e6cf00d0583ebe1fe3b9d4282d144a5074fc3a15e55fc1a0be 32845 Packages
- d30366aedb359d0900c5a22ea9bc6bf8775d36de564bd1c83a8607edbf0ac65d 10004 Packages.gz
+ 252fce15f87477b8d1d8c567c909eee3be6bd8087411f890883a10f8ca16606f 31206 Packages
+ f359830a905f455a0f5d689c01ebf41690b782c193e393ee5e6c6840dd573d4f 9147 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -82,7 +81,6 @@ SHA256:
  8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
  344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
  16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
- 4f3c34bb787e62a8bf355757d50687cb23de62e3c9ad123b903b77b09b384c69 64488 debs/com.jibamao.gaodeclean_0.9.29_iphoneos-arm64e.deb
  782584980e658f7227ef22f43b25813cb2f5418f956f07609d3cd0296ca0e260 2767754 debs/com.lclrc.hammerits_1.7.0_iphoneos-arm64e.deb
  34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da 7972 debs/com.lenglengyu.ghallownetwork_0.0.1_iphoneos-arm64e.deb
  b90f932df244166eab315ee8d43d1df9cf94fde0c06e47b01e8f8424b5d96ad9 131580 debs/com.lenglengyu.passbyccs_1.0.2_iphoneos-arm64e.deb

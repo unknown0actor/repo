@@ -705,22 +705,6 @@ Size: 415820
 SHA256: 17bbec40c6e8d06627c3d5cb1f2f875f31f80ef5a9e92d306dcd145d64d57f39
 Depiction: https://unknown0actor.github.io/repo/depictions/com.udevs.dockx.html
 
-Package: com.unknown.amapcrack
-Name: AMapCrack 高德净化
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Description: AMapCrack 
- • 新增打车浮动按钮：点击直达打车页，长按底栏 1 秒可开关
-Maintainer: Unknown
-Author: Unknown
-Section: Tweaks
-Depends: firmware (>= 15.0)
-Installed-Size: 221
-Filename: debs/com.unknown.amapcrack_1.0.1_iphoneos-arm64e.deb
-Size: 69032
-SHA256: e43705278ee176a016eccd4b1d9895cbfa0f8630cae52e74a240f56c595e7bef
-Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
-
 Package: com.xiaoming.calculator.ccmodule
 Version: 1.0.5
 Architecture: iphoneos-arm64e

@@ -722,21 +722,6 @@ SHA256: 1545b7b3511c4e2177d10bf1e081a4f9fc6fc5b390d8dc351f330e5e99ce1249
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
 
 Package: com.unknown.notesreadonly
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Description: 在备忘录 App 的右上角菜单里加一个只读开关。
-Name: 备忘录只读
-Author: unknown
-Maintainer: unknown
-Section: Tweaks
-Depends: firmware (>= 16.0), mobilesubstrate
-Installed-Size: 108
-Filename: debs/com.unknown.notesreadonly_1.0.2_iphoneos-arm64e.deb
-Size: 17288
-SHA256: f4c6d002f702254873495a8743ea66d54341aad705121d20dcd64263393b7ca3
-Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.notesreadonly.html
-
-Package: com.unknown.notesreadonly
 Version: 1.0.7
 Architecture: iphoneos-arm64e
 Description: 在备忘录 App 的右上角菜单里加一个只读开关。

@@ -721,6 +721,22 @@ Size: 73280
 SHA256: 74740b2c4a4ec6d2d361a896862062dada74efc662f877d16114091bf4410839
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
 
+Package: com.unknown.amapcrack
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: 高德自定义净化
+ 长按我的触发设置面板
+Name: AMapCrack
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 210
+Filename: debs/com.unknown.amapcrack_1.0.0_iphoneos-arm64e.deb
+Size: 59058
+SHA256: c47ebc68223cd93892a10b9fb0fc144c70a4f8335358e6893f0ed4dbab9f9020
+Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
+
 Package: com.xiaoming.calculator.ccmodule
 Version: 1.0.5
 Architecture: iphoneos-arm64e

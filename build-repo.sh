@@ -9,8 +9,8 @@ set -eu
 cd "$(dirname "$0")"
 
 REPO_URL="https://unknown0actor.github.io/repo"
-ORIGIN="unknown0actor"
-LABEL="unknown0actor"
+ORIGIN="Unknown"
+LABEL="Unknown"
 SUITE="stable"
 RELEASE_VERSION="1.0"
 CODENAME="ios"

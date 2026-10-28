@@ -79,6 +79,8 @@ done
 - 2026-10-24（19 个包）：`Packages` 每个条目的 `Size`/`SHA256` 与磁盘 deb 逐一比对一致，无重复 `Package`，`Release` 的 SHA256 区 21 行（`Packages`+`Packages.gz`+19 个 deb）；连续两次构建哈希一致；线上 `Packages`/`Packages.gz`/`Release`/每个 deb 与本地逐字节相同。
 - 2026-10-24（36 个包，35 个不同 `Package`）：17 个新包改名收录、1 个重复上传的文件删除；`Size`/`SHA256` 全部与磁盘一致、同包同版本无重复、`Release` SHA256 区 38 行、`gzip -t` 通过、连续两次构建哈希一致；推送 `9fada8e` 后线上 `Packages`/`Packages.gz`/`Release` 与抽查的 deb 逐字节相同，首页 36 张卡片，CI 没有产生空提交。
 
+- 2026-10-29（48 个 deb / 44 个不同 `Package`，多版本共存的 4 个包）：新增 `com.unknown.notesreadonly_1.0.7`（20364 字节，sha256 `35470e78…770ca3`），推送 `37d3316` 后 Actions 回推索引 `d7fdf3d`；线上 `Packages`/`Packages.gz`/`Release`/新 deb 与本地逐字节相同，`gzip -t` 通过且解压等于 `Packages`，48 个 stanza 的 `Size`/`SHA256` 与磁盘一致，`Release` 的 MD5Sum/SHA256 共 100 行全部相符，同包同版本无重复，简介页与首页卡片含 1.0.7。索引按既有习惯同时保留 1.0.2 与 1.0.7 两条 stanza（apt 取最高版）。
+
 ## 发布 / git
 
 本设备**没有 git 可执行文件**，仓库历史只能由 Apelin 的 git 工具（`git_status` / `git_stage` / `git_commit` / `git_push` / `git_fetch`）操作：

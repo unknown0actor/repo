@@ -79,7 +79,21 @@ done
 - 2026-10-24（19 个包）：`Packages` 每个条目的 `Size`/`SHA256` 与磁盘 deb 逐一比对一致，无重复 `Package`，`Release` 的 SHA256 区 21 行（`Packages`+`Packages.gz`+19 个 deb）；连续两次构建哈希一致；线上 `Packages`/`Packages.gz`/`Release`/每个 deb 与本地逐字节相同。
 - 2026-10-24（36 个包，35 个不同 `Package`）：17 个新包改名收录、1 个重复上传的文件删除；`Size`/`SHA256` 全部与磁盘一致、同包同版本无重复、`Release` SHA256 区 38 行、`gzip -t` 通过、连续两次构建哈希一致；推送 `9fada8e` 后线上 `Packages`/`Packages.gz`/`Release` 与抽查的 deb 逐字节相同，首页 36 张卡片，CI 没有产生空提交。
 
-- 2026-10-29（48 个 deb / 44 个不同 `Package`，多版本共存的 4 个包）：新增 `com.unknown.notesreadonly_1.0.7`（20364 字节，sha256 `35470e78…770ca3`），推送 `37d3316` 后 Actions 回推索引 `d7fdf3d`；线上 `Packages`/`Packages.gz`/`Release`/新 deb 与本地逐字节相同，`gzip -t` 通过且解压等于 `Packages`，48 个 stanza 的 `Size`/`SHA256` 与磁盘一致，`Release` 的 MD5Sum/SHA256 共 100 行全部相符，同包同版本无重复，简介页与首页卡片含 1.0.7。索引按既有习惯同时保留 1.0.2 与 1.0.7 两条 stanza（apt 取最高版）。
+- 2026-10-29（48 个 deb / 44 个不同 `Package`，多版本共存的 4 个包）：新增 `com.unknown.notesreadonly_1.0.7`（20364 字节，sha256 `35470e78…770ca3`），推送 `37d3316` 后 Actions 回推索引 `d7fdf3d`；线上 `Packages`/`Packages.gz`/`Release`/新 deb 与本地逐字节相同，`gzip -t` 通过且解压等于 `Packages`，48 个 stanza 的 `Size`/`SHA256` 与磁盘一致，`Release` 的 MD5Sum/SHA256 共 100 行全部相符，同包同版本无重复，简介页与首页卡片含 1.0.7。
+- 2026-10-29（同一天稍后，只留最新版）：按用户同意删掉 `com.unknown.notesreadonly_1.0.2` 的 deb（提交 `0600379`，Actions 回推 `ab9f31d`），线上只剩 1.0.7 一条 stanza，旧 deb 在线 404。**多版本包想只留最新版时：删 `debs/` 里的旧 deb 再推，Actions 会重建；不要在本地手改索引。**
+- 2026-10-29（网页并发上传导致历史分叉后重建工作区，HEAD `da64f21`）：`debs/` 47 个 deb 与 `Packages` 47 条 stanza 一一对应（无多无缺），每条 `Size`/`SHA256` 与磁盘一致；`Release` 的 MD5Sum+SHA256 共 98 行全部相符；`Packages`/`Packages.gz`/`Release`/`index.html` 与线上逐字节相同，`gzip -t` 通过且解压等于 `Packages`；`com.unknown.notesreadonly` 仅 1.0.7，`notesreadonly_1.0.2` 在索引、`Release`、首页里 0 处引用。
+
+### 本地与远端分叉时（网页并发上传踩过，2026-10-29）
+
+网页上传 deb 和本机推送同时发生时，远端会有 Actions 回推的提交，而本机若已提交就会分叉。Apelin 的 git 工具只有 fetch/pull（只快进）、**没有 merge/rebase/reset**，`git_push` 会被拒（"远程有本分支没有的提交"），`git_clone` 又因「工作区已有同名文件」被拒。恢复步骤（会丢掉本机未推送的提交，先把要留的文件拷出来）：
+
+```sh
+cp AGENTS.md /tmp/agents-backup.md      # 或任何要保留的改动
+mkdir -p /tmp/repo-prev && mv .github .nojekyll AGENTS.md build-repo.sh debs Packages Packages.gz Release index.html depictions /tmp/repo-prev/
+rm -rf .git                              # 必须把仓库文件挪走，clone 才肯写
+```
+
+然后在项目根 `git_clone https://github.com/unknown0actor/repo.git`（`apelin-project.json` 留在原地，它不属于仓库），克隆完按 /tmp 备份补回 `AGENTS.md` 那类改动，再 `git_stage AGENTS.md` → `git_commit` → `git_push`，最后删掉 `/tmp/repo-prev`。重建后要复核：`debs/` 文件数 = `Packages` stanza 数、每条 `Size`/`SHA256` 与磁盘一致、`Release` 校验和全对。
 
 ## 发布 / git
 

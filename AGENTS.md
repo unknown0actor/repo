@@ -82,6 +82,7 @@ done
 - 2026-10-29（48 个 deb / 44 个不同 `Package`，多版本共存的 4 个包）：新增 `com.unknown.notesreadonly_1.0.7`（20364 字节，sha256 `35470e78…770ca3`），推送 `37d3316` 后 Actions 回推索引 `d7fdf3d`；线上 `Packages`/`Packages.gz`/`Release`/新 deb 与本地逐字节相同，`gzip -t` 通过且解压等于 `Packages`，48 个 stanza 的 `Size`/`SHA256` 与磁盘一致，`Release` 的 MD5Sum/SHA256 共 100 行全部相符，同包同版本无重复，简介页与首页卡片含 1.0.7。
 - 2026-10-29（同一天稍后，只留最新版）：按用户同意删掉 `com.unknown.notesreadonly_1.0.2` 的 deb（提交 `0600379`，Actions 回推 `ab9f31d`），线上只剩 1.0.7 一条 stanza，旧 deb 在线 404。**多版本包想只留最新版时：删 `debs/` 里的旧 deb 再推，Actions 会重建；不要在本地手改索引。**
 - 2026-10-29（网页并发上传导致历史分叉后重建工作区，HEAD `da64f21`）：`debs/` 47 个 deb 与 `Packages` 47 条 stanza 一一对应（无多无缺），每条 `Size`/`SHA256` 与磁盘一致；`Release` 的 MD5Sum+SHA256 共 98 行全部相符；`Packages`/`Packages.gz`/`Release`/`index.html` 与线上逐字节相同，`gzip -t` 通过且解压等于 `Packages`；`com.unknown.notesreadonly` 仅 1.0.7，`notesreadonly_1.0.2` 在索引、`Release`、首页里 0 处引用。
+- 2026-10-29（NotesReadOnly 1.0.8，47 个 deb / 47 个 stanza）：删 1.0.7 换 1.0.8（20922 字节，sha256 `59390f1a…2504c1`，与本机构建产物一致），推送 `eea4879` 后 Actions 回推索引 `08ea72f`。线上 `Packages`、`Packages.gz`、`Release`、`index.html`、`depictions/com.unknown.notesreadonly.html`、1.0.8 deb 与本机逐字节相同；`Packages.gz` 解压等于 `Packages`；`Release` MD5Sum/SHA256 各 49 行全部相符；notesreadonly 仅 1.0.8 一条 stanza（`Size`/`SHA256` 与磁盘一致），1.0.7 在索引、`Release`、首页、简介页 0 处引用且线上 404。**这个包只发 roothide 版，rootless 版不上传。**
 
 ### 本地与远端分叉时（网页并发上传踩过，2026-10-29）
 

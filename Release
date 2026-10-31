@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 8d4113d7568a34ea48c383daf8d4fe77 32255 Packages
- cf05e3efc8f9fc4476c0c55926fac976 9409 Packages.gz
+ 0a6d50348c4374ca3de8c4231dd0f446 32901 Packages
+ a5aad1477c6abe46d57682bb3b6d26c4 9593 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -51,14 +51,15 @@ MD5Sum:
  0fed3e535b082ec9950bc40f9443f107 8028 debs/com.snail.easynotify.rootless_1.0.0_iphoneos-arm64e.deb
  0e3d9fc803df4ba22950b4b132ac1057 415820 debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
  36b4f8fd55220d0c97bf06409f84bd76 59054 debs/com.unknown.amapcrack_1.0.0_iphoneos-arm64e.deb
+ 3fad0ca35ef881a6680df56ec8b6edca 5020 debs/com.unknown.noshortcutisland_0.2.2_iphoneos-arm64e.deb
  095cb29fe720aa21873c95100721c7a3 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
  d5a9e965ea301fb05faaac218e9e2e9b 10000 debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb
  ae3cceb16c0922ade08fbcff8d13bf90 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- bd1da90cf10b1c952528fbb693ee6222f3ac5cd8d13f1a179bad6c0a6d46b4ae 32255 Packages
- 6c091c6100a92b89078b2ac59c2ac23b9c52a843d1c45f88cf461e138bf2f140 9409 Packages.gz
+ 784a8c2730d3d6a44d5d7a1f61f31a586bb834572638b9fc77a30af40c8898cd 32901 Packages
+ 807761435ba7dae785b93adfd0de62bfa1705c97c717055195e71ae7dd1424b0 9593 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -101,6 +102,7 @@ SHA256:
  e2362e4e35657dcf5893261a7f7ea8f4d598fe6c5ce29b2cbc22b8265a3fce5c 8028 debs/com.snail.easynotify.rootless_1.0.0_iphoneos-arm64e.deb
  17bbec40c6e8d06627c3d5cb1f2f875f31f80ef5a9e92d306dcd145d64d57f39 415820 debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
  1545b7b3511c4e2177d10bf1e081a4f9fc6fc5b390d8dc351f330e5e99ce1249 59054 debs/com.unknown.amapcrack_1.0.0_iphoneos-arm64e.deb
+ 0f5d81b733b79b3bc1eea66194c01f50d1a4dce2cc5586ff9b571bf180182325 5020 debs/com.unknown.noshortcutisland_0.2.2_iphoneos-arm64e.deb
  59390f1a72bcb315e3bd0e4639b9a8d7d74460fdb5efa8336e440988152504c1 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
  5251a51fbdec8a2e15dd840bded3ec92e8cc5451b7bc6b7bffdcbf66fee4f07d 10000 debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb
  6356dce48a460622f8cd8f523f0f5085be636894a4b4e38cc8d5f85162aff75f 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb

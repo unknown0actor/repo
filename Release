@@ -7,9 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 84b279a1a3c9ea3ff206e9837bcbb8e4 34365 Packages
- d3ba3bccd841b65caecd5499da8a9b9d 9756 Packages.gz
- 196b0b81c40c884b7e9c0f7924327a6a 813400 debs/Kayoko-5.1.1-iphoneos-arm64e.deb
+ 38f0b25cf7c22349ba7e8b05b7fc7de4 33447 Packages
+ 151ec464ae3eae0189c963da6ffdbff3 9681 Packages.gz
  d711334ad1f194e13145aaf715be91fa 171396 debs/PrefNest-1.2.3-iphoneos-arm64e.deb
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
@@ -60,9 +59,8 @@ MD5Sum:
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- 08263984099d41f63250aae3c5a822ba193a532b7e0efba569b31c410cf658c7 34365 Packages
- 3f990360a1db7fe23e789d7c80d7ea4c841c3a703607082d6a5d8e70ab1f3c03 9756 Packages.gz
- 86bb7bb6832a0c4370c52fca8f5afebce9bc8eeff11829aa6b6a0a8fc3bc72ee 813400 debs/Kayoko-5.1.1-iphoneos-arm64e.deb
+ ccbcd4f250f3a8c36274335b847822043e0a7b3cc6e26509857380b40393c293 33447 Packages
+ 5f05531a1b5fcbec610574ba351b48036a680efa46a298a003b6a4cc7804bd2d 9681 Packages.gz
  64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc 171396 debs/PrefNest-1.2.3-iphoneos-arm64e.deb
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb

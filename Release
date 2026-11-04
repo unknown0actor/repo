@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 0a6d50348c4374ca3de8c4231dd0f446 32901 Packages
- a5aad1477c6abe46d57682bb3b6d26c4 9593 Packages.gz
+ b11e2a415b7291e9d3d823507710d090 35424 Packages
+ cb5976ca6e941005457342a6274b705e 9969 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -31,6 +31,7 @@ MD5Sum:
  be8085baf53a0e6713c84e918bb1ff77 47406 debs/com.hang.zzzj_0.0.1-8+debug_iphoneos-arm64e.deb
  190d6e7def846d515782da0d3bd62937 9174 debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
  f168b96683df459ffa89dc3b99f5d0da 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
+ c2a386f1e63725a180d2f35b7b2aa940 4952596 debs/com.huami.wcpulse_1.7-6_iphoneos-arm64e.deb
  2117af6795e6a197fa4958c0bf9d1bf0 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
  875d7936255d0996660a65e605aa1d06 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
  daeb14dabefeb181078c31120570b494 2767754 debs/com.lclrc.hammerits_1.7.0_iphoneos-arm64e.deb
@@ -39,7 +40,9 @@ MD5Sum:
  9ea5d36a32caa63934315eaa18c42186 20062312 debs/com.mikotohelper.wechat_1.3.6-V10-0_iphoneos-arm64e.deb
  1d968bb89298e4a58a1bdcaa6528f87b 746610 debs/com.mlgm.kayoko_5.0.3_iphoneos-arm64e.deb
  c667b7d9f6376685eddc750cce46bd02 746664 debs/com.mlgm.kayoko_5.0.4_iphoneos-arm64e.deb
+ 196b0b81c40c884b7e9c0f7924327a6a 813400 debs/com.mlgm.kayoko_5.1.1_iphoneos-arm64e.deb
  13e91aecebcc882266eec11934ccf57c 170984 debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
+ d711334ad1f194e13145aaf715be91fa 171396 debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64e.deb
  380df3359dd98d3898b77622cf53d41b 168036 debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
  a0a3e3af45498f5db3a7911658c67955 1124 debs/com.nan.disableupdates_0.1.1_iphoneos-arm64e.deb
  ec75546166a90744f00bd2d9d811b837 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
@@ -54,12 +57,13 @@ MD5Sum:
  3fad0ca35ef881a6680df56ec8b6edca 5020 debs/com.unknown.noshortcutisland_0.2.2_iphoneos-arm64e.deb
  095cb29fe720aa21873c95100721c7a3 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
  d5a9e965ea301fb05faaac218e9e2e9b 10000 debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb
+ 77f2f7b678999632dd164c231338020f 4992 debs/com.zkba.hidelocationicon_0.1.0_iphoneos-arm64e.deb
  ae3cceb16c0922ade08fbcff8d13bf90 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- 784a8c2730d3d6a44d5d7a1f61f31a586bb834572638b9fc77a30af40c8898cd 32901 Packages
- 807761435ba7dae785b93adfd0de62bfa1705c97c717055195e71ae7dd1424b0 9593 Packages.gz
+ 19f4d67fb93fee3d134b5349bd113fb490588e717f95c4ff2a7dc1eacaf04304 35424 Packages
+ 16261d2de47179007df299a978fb57c1fdbb8423d6e7e715888a53ff64e0e447 9969 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -82,6 +86,7 @@ SHA256:
  136ff8f5fd44f62208076ed493add093e2f0d220ee5a2fda5595b7a0366734aa 47406 debs/com.hang.zzzj_0.0.1-8+debug_iphoneos-arm64e.deb
  965e91c11a148be852429e63a3410aa0708b715953a40504b31dc30dbb6e00b2 9174 debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
  8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
+ a2af3ac9615b5cb57315bf127bb720927e033c9dcad27d44134b886388ab5d1f 4952596 debs/com.huami.wcpulse_1.7-6_iphoneos-arm64e.deb
  344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
  16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
  782584980e658f7227ef22f43b25813cb2f5418f956f07609d3cd0296ca0e260 2767754 debs/com.lclrc.hammerits_1.7.0_iphoneos-arm64e.deb
@@ -90,7 +95,9 @@ SHA256:
  0d805d8a56da139847a26b3580544fc41f791d3446a707326875f73705565a23 20062312 debs/com.mikotohelper.wechat_1.3.6-V10-0_iphoneos-arm64e.deb
  0b693c5d4513ee3d36de04fe87fba2bb56366d1be329ad45123a34e06a598e63 746610 debs/com.mlgm.kayoko_5.0.3_iphoneos-arm64e.deb
  09f50320f945a8096fd71283add60cbfe74017539bce69514ba7ffab00b8eec1 746664 debs/com.mlgm.kayoko_5.0.4_iphoneos-arm64e.deb
+ 86bb7bb6832a0c4370c52fca8f5afebce9bc8eeff11829aa6b6a0a8fc3bc72ee 813400 debs/com.mlgm.kayoko_5.1.1_iphoneos-arm64e.deb
  c63f49cfc92763cb30458cc11c6d7c251276dc11764b1b7da16113efef45f491 170984 debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
+ 64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc 171396 debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64e.deb
  14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf 168036 debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
  6e25acd15098c1aab8263d105766782b0d6da11817115cca0035c06e609a29a0 1124 debs/com.nan.disableupdates_0.1.1_iphoneos-arm64e.deb
  f04d864169a126f895f74a7849ad4ec8b57ddc8ce566646d0cc6bf4a00e55180 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
@@ -105,6 +112,7 @@ SHA256:
  0f5d81b733b79b3bc1eea66194c01f50d1a4dce2cc5586ff9b571bf180182325 5020 debs/com.unknown.noshortcutisland_0.2.2_iphoneos-arm64e.deb
  59390f1a72bcb315e3bd0e4639b9a8d7d74460fdb5efa8336e440988152504c1 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
  5251a51fbdec8a2e15dd840bded3ec92e8cc5451b7bc6b7bffdcbf66fee4f07d 10000 debs/com.xiaoming.calculator.ccmodule_1.0.5_iphoneos-arm64e.deb
+ 175b5fd39ecabce21accada61a73654a6ee5453c83dc64231f8b30aee0ee5163 4992 debs/com.zkba.hidelocationicon_0.1.0_iphoneos-arm64e.deb
  6356dce48a460622f8cd8f523f0f5085be636894a4b4e38cc8d5f85162aff75f 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  942e57d0791a1339fc5159b1cde09599078730e8b1567681c8d66efe3edc1d69 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  8977fcbc8bc6bf8a6901cdf06aba5c5e21a2379267961fbbf6ef4b2c224fc676 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb

@@ -890,6 +890,24 @@ Size: 7996448
 SHA256: 942e57d0791a1339fc5159b1cde09599078730e8b1567681c8d66efe3edc1d69
 Depiction: https://unknown0actor.github.io/repo/depictions/netskao.wechatpurifications.html
 
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.1.3
+Installed-Size: 9980
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xhs.x_2.1.3_iphoneos-arm64e.deb
+Size: 10759458
+SHA256: a95b6bc204931a3ae75a513da142baa44f19f3b4ee2d690239e6dda1edd052d2
+Depiction: https://unknown0actor.github.io/repo/depictions/xhs.x.html
+
 Package: xyz.cypwn.camscanner
 Maintainer: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/2629

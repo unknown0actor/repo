@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- b11e2a415b7291e9d3d823507710d090 35424 Packages
- cb5976ca6e941005457342a6274b705e 9969 Packages.gz
+ 6bd711ad21fa7189538043ea03050cf0 36032 Packages
+ f09c33937588c9006f75e204ca4606a3 10105 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -48,6 +48,7 @@ MD5Sum:
  ec75546166a90744f00bd2d9d811b837 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
  ab83ef2fd4467ab85bfaf34729053029 535854 debs/com.netskao.dumpdecrypters_1.5-1_iphoneos-arm64e.deb
  5798ff27e050576be10bb790f9c38936 29372 debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
+ 43d59e200ea8effd088f2d78925adfa9 162750 debs/com.opa334.choicy_1.5.4_iphoneos-arm64e.deb
  0a58a001c78795d8b99398dab32203bd 1566520 debs/com.opa334.crane_1.3.18-2_iphoneos-arm64e.deb
  ad10aac21c9f77453963e46ad0a3f9ba 14374 debs/com.skypain.cclocation_1.1.0-1_iphoneos-arm64e.deb
  2589e9f847868b31af1aa93d3b594cdd 30714 debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb
@@ -62,8 +63,8 @@ MD5Sum:
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- 19f4d67fb93fee3d134b5349bd113fb490588e717f95c4ff2a7dc1eacaf04304 35424 Packages
- 16261d2de47179007df299a978fb57c1fdbb8423d6e7e715888a53ff64e0e447 9969 Packages.gz
+ 3c5a6d86f826bb2d026f743c3d9e55921bb0a876531f1310547115721507e47b 36032 Packages
+ de9a161fee7f452a4f706e3e7f9f3062f7c9af499248afb5081bb2ca04bc74a3 10105 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -103,6 +104,7 @@ SHA256:
  f04d864169a126f895f74a7849ad4ec8b57ddc8ce566646d0cc6bf4a00e55180 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
  6eaa1d4a4320a3014b669079d98da35de79f77eb987a52641e6c34b97dd5755e 535854 debs/com.netskao.dumpdecrypters_1.5-1_iphoneos-arm64e.deb
  002b20fbe93bc4ee706933ccc57a6cd346532d2eda753293c31eb4413f8fe1e0 29372 debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
+ adc5b9e75ad86a1dd37da04a65188ac9e02b72701ba35b90e0111e61bd2ec54b 162750 debs/com.opa334.choicy_1.5.4_iphoneos-arm64e.deb
  b45a589e20754abda769a95d42df666d290e7179b0dbebbdda132537b10e76ef 1566520 debs/com.opa334.crane_1.3.18-2_iphoneos-arm64e.deb
  7e6e5e1de8ad562378a77eabbab1f70251b0f63ecd064e812f79de177020c840 14374 debs/com.skypain.cclocation_1.1.0-1_iphoneos-arm64e.deb
  dc00988ad5e2533bbc538bd6a6c84bb10704fae44acb1c55519bab0bce25abe4 30714 debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb

@@ -666,6 +666,22 @@ Size: 29372
 SHA256: 002b20fbe93bc4ee706933ccc57a6cd346532d2eda753293c31eb4413f8fe1e0
 Depiction: https://unknown0actor.github.io/repo/depictions/com.netskao.filzacrack.html
 
+Package: com.opa334.choicy
+Name: Choicy
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: Advanced Tweak Configuration!
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5.4
+Installed-Size: 1104
+Filename: debs/com.opa334.choicy_1.5.4_iphoneos-arm64e.deb
+Size: 162750
+SHA256: adc5b9e75ad86a1dd37da04a65188ac9e02b72701ba35b90e0111e61bd2ec54b
+Depiction: https://unknown0actor.github.io/repo/depictions/com.opa334.choicy.html
+
 Package: com.opa334.crane
 Name: Crane
 Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)

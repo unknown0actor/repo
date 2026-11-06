@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 9c93ee8711736239ad404e1904364c55 37455 Packages
- 6b43469b1bb3672265c1dca512a33dc0 10343 Packages.gz
+ bfa9c47b382c17730549706c40d7dc93 37878 Packages
+ decd76bb1d5273335a31871c17a297f3 10415 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -32,6 +32,7 @@ MD5Sum:
  190d6e7def846d515782da0d3bd62937 9174 debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
  f168b96683df459ffa89dc3b99f5d0da 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
  c2a386f1e63725a180d2f35b7b2aa940 4952596 debs/com.huami.wcpulse_1.7-6_iphoneos-arm64e.deb
+ dd58266e16bce92349cfad3937780732 4933852 debs/com.huami.wcpulse_1.7-7_iphoneos-arm64e.deb
  2117af6795e6a197fa4958c0bf9d1bf0 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
  875d7936255d0996660a65e605aa1d06 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
  daeb14dabefeb181078c31120570b494 2767754 debs/com.lclrc.hammerits_1.7.0_iphoneos-arm64e.deb
@@ -65,8 +66,8 @@ MD5Sum:
  be7160e85c67c8f3672324c4b95834ab 10759458 debs/xhs.x_2.1.3_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- 63b5f28d3f96ed8cf0fab012340b9e130c0550be92bb6da5bdfc6780dc028861 37455 Packages
- be63e0219208120e77b278cb9ad2fce7aa026e1f58354071725d330c27fe379d 10343 Packages.gz
+ 0ef45b7adcf4930b72311673380c9f93411f5703c9f519cbd1bd212dc5f0b135 37878 Packages
+ 8a30519f762a7772ba7da5162e03ab4768d1628e09a76d40fd0e47137a8f91b9 10415 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -90,6 +91,7 @@ SHA256:
  965e91c11a148be852429e63a3410aa0708b715953a40504b31dc30dbb6e00b2 9174 debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e.deb
  8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a 31192 debs/com.huami.actiongesture_0.0-3_iphoneos-arm64e.deb
  a2af3ac9615b5cb57315bf127bb720927e033c9dcad27d44134b886388ab5d1f 4952596 debs/com.huami.wcpulse_1.7-6_iphoneos-arm64e.deb
+ b6a5a5355506f574af6745c2997ebfe8cc337c8381e1298954c0bb3ef27004a5 4933852 debs/com.huami.wcpulse_1.7-7_iphoneos-arm64e.deb
  344ac4587d90e291916a42ca0eaf54e63ef724e46c4c7882235d3c6d7a4c5758 98830 debs/com.iosdump.jumpselect_1.3_iphoneos-arm64e.deb
  16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75 2601634 debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
  782584980e658f7227ef22f43b25813cb2f5418f956f07609d3cd0296ca0e260 2767754 debs/com.lclrc.hammerits_1.7.0_iphoneos-arm64e.deb

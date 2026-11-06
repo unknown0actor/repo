@@ -379,6 +379,20 @@ Size: 4952596
 SHA256: a2af3ac9615b5cb57315bf127bb720927e033c9dcad27d44134b886388ab5d1f
 Depiction: https://unknown0actor.github.io/repo/depictions/com.huami.WCPulse.html
 
+Package: com.huami.WCPulse
+Name: WCPulse
+Version: 1.7-7
+Description: WCPulse
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Filename: debs/com.huami.wcpulse_1.7-7_iphoneos-arm64e.deb
+Size: 4933852
+SHA256: b6a5a5355506f574af6745c2997ebfe8cc337c8381e1298954c0bb3ef27004a5
+Depiction: https://unknown0actor.github.io/repo/depictions/com.huami.WCPulse.html
+
 Package: com.iosdump.jumpselect
 Name: JumpSelect
 Depends: mobilesubstrate, preferenceloader

@@ -865,6 +865,24 @@ Size: 20922
 SHA256: 59390f1a72bcb315e3bd0e4639b9a8d7d74460fdb5efa8336e440988152504c1
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.notesreadonly.html
 
+Package: com.unknown.sileotranslate
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: 长按 Sileo 包的介绍或更新日志，用系统翻译面板显示中文
+ 在 Sileo 的包详情页或更新日志里长按任意一段文字，即弹出系统翻译面板显示中文。
+ 已经是中文的段落会直接跳过，不弹任何东西。
+ 面板由系统翻译服务提供，支持拷贝译文、朗读、收藏。
+Name: Sileo 翻译
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 91
+Filename: debs/com.unknown.sileotranslate_1.0.0_iphoneos-arm64e.deb
+Size: 10582
+SHA256: 8507dfc307391af902370336b3fe5ace22612f7509a9b14f6680ee115d6427c7
+Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.sileotranslate.html
+
 Package: com.xiaoming.calculator.ccmodule
 Version: 1.0.5
 Architecture: iphoneos-arm64e

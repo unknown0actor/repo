@@ -518,22 +518,6 @@ Author: mlgm
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.2.2
-Installed-Size: 888
-Filename: debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
-Size: 170984
-SHA256: c63f49cfc92763cb30458cc11c6d7c251276dc11764b1b7da16113efef45f491
-Depiction: https://unknown0actor.github.io/repo/depictions/com.mlgm.prefnest.html
-
-Package: com.mlgm.prefnest
-Name: PrefNest
-Description: 整理设置首页，集中收纳越狱插件。
-Icon: https://mlgm66.github.io/icon/prefnest.png
-Maintainer: mlgm
-Author: mlgm
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64e
 Version: 1.2.3
 Installed-Size: 888
 Filename: debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64e.deb

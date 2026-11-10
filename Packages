@@ -219,29 +219,6 @@ Name: MoreLinesNotifications
 Package: com.cydiageek.morelinesnotifications
 Priority: optional
 Depends: mobilesubstrate, firmware (>= 8.0)
-Version: 1.0.5
-Architecture: iphoneos-arm64e
-Description: Increase the Lines for the Notifications!为通知增加更多的行，显示更多的通知！
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: CydiaGeek <lucaluca86@aol.com>
-Section: Tweaks
-Tag: purpose::extension
-Installed-Size: 179
-dev: lucaluca86
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e.deb
-Size: 4660
-SHA256: 44777d90061c435fd1c98d25214c636e6bec97e5a4a149c839e234b981ed7acd
-Depiction: https://unknown0actor.github.io/repo/depictions/com.cydiageek.morelinesnotifications.html
-
-Name: MoreLinesNotifications
-Package: com.cydiageek.morelinesnotifications
-Priority: optional
-Depends: mobilesubstrate, firmware (>= 8.0)
 Version: 1.0.6
 Architecture: iphoneos-arm64e
 Description: Increase the Lines for the Notifications!

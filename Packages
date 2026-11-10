@@ -366,20 +366,6 @@ Depiction: https://unknown0actor.github.io/repo/depictions/com.huami.actiongestu
 
 Package: com.huami.WCPulse
 Name: WCPulse
-Version: 1.7-6
-Description: WCPulse
-Maintainer: huami
-Author: huami
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Filename: debs/com.huami.wcpulse_1.7-6_iphoneos-arm64e.deb
-Size: 4952596
-SHA256: a2af3ac9615b5cb57315bf127bb720927e033c9dcad27d44134b886388ab5d1f
-Depiction: https://unknown0actor.github.io/repo/depictions/com.huami.WCPulse.html
-
-Package: com.huami.WCPulse
-Name: WCPulse
 Version: 1.7-7
 Description: WCPulse
 Maintainer: huami
@@ -503,25 +489,6 @@ Filename: debs/com.mikotohelper.wechat_1.3.6-V10-0_iphoneos-arm64e.deb
 Size: 20062312
 SHA256: 0d805d8a56da139847a26b3580544fc41f791d3446a707326875f73705565a23
 Depiction: https://unknown0actor.github.io/repo/depictions/com.mikotohelper.wechat.html
-
-Package: com.mlgm.kayoko
-Name: Kayoko
-Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
-Maintainer: mlgm
-Author: mlgm
-Section: Tweaks
-Icon: https://mlgm66.github.io/icon/kayoko.png
-SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Architecture: iphoneos-arm64e
-Version: 5.1.1
-Installed-Size: 3864
-Filename: debs/com.mlgm.kayoko_5.1.1_iphoneos-arm64e.deb
-Size: 813400
-SHA256: 86bb7bb6832a0c4370c52fca8f5afebce9bc8eeff11829aa6b6a0a8fc3bc72ee
-Depiction: https://unknown0actor.github.io/repo/depictions/com.mlgm.kayoko.html
 
 Package: com.mlgm.kayoko
 Name: Kayoko

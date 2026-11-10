@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- f0068acb41c50e1ee4d79f6b9d7f47b6 38201 Packages
- 1776bc404be06d43d7e3e1f1501f5306 10749 Packages.gz
+ 50595f32a1bbb43161d99002cc081381 37274 Packages
+ f00a6c2e6765ad625c0a6c20f147d4bc 10667 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -39,7 +39,6 @@ MD5Sum:
  61e194e670f34229b51875af4d1328c6 7972 debs/com.lenglengyu.ghallownetwork_0.0.1_iphoneos-arm64e.deb
  eaf6c4cbb386e98ff7db0c7898fae407 131580 debs/com.lenglengyu.passbyccs_1.0.2_iphoneos-arm64e.deb
  9ea5d36a32caa63934315eaa18c42186 20062312 debs/com.mikotohelper.wechat_1.3.6-V10-0_iphoneos-arm64e.deb
- c667b7d9f6376685eddc750cce46bd02 746664 debs/com.mlgm.kayoko_5.0.4_iphoneos-arm64e.deb
  196b0b81c40c884b7e9c0f7924327a6a 813400 debs/com.mlgm.kayoko_5.1.1_iphoneos-arm64e.deb
  98f9e8edbb12d1762fd0c7bc668c3dfa 814484 debs/com.mlgm.kayoko_5.1.2_iphoneos-arm64e.deb
  13e91aecebcc882266eec11934ccf57c 170984 debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
@@ -67,8 +66,8 @@ MD5Sum:
  be7160e85c67c8f3672324c4b95834ab 10759458 debs/xhs.x_2.1.3_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- 94d28e9499a1fcfdead23e10affc0aa2046439863edbc36c2f568c2394c4b155 38201 Packages
- 962e13db6ca9baeb959a1bee4d216cd7b3a07f2b41e8c510ad5c1678db20a764 10749 Packages.gz
+ ed180cdeaa389c450cbd76b9ad864053e8356508ec78034cbe70bc3f26844436 37274 Packages
+ f78f34dd097ab93455fe2736829a474e1c54da2acea7f3adfd5488c208082b58 10667 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -99,7 +98,6 @@ SHA256:
  34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da 7972 debs/com.lenglengyu.ghallownetwork_0.0.1_iphoneos-arm64e.deb
  b90f932df244166eab315ee8d43d1df9cf94fde0c06e47b01e8f8424b5d96ad9 131580 debs/com.lenglengyu.passbyccs_1.0.2_iphoneos-arm64e.deb
  0d805d8a56da139847a26b3580544fc41f791d3446a707326875f73705565a23 20062312 debs/com.mikotohelper.wechat_1.3.6-V10-0_iphoneos-arm64e.deb
- 09f50320f945a8096fd71283add60cbfe74017539bce69514ba7ffab00b8eec1 746664 debs/com.mlgm.kayoko_5.0.4_iphoneos-arm64e.deb
  86bb7bb6832a0c4370c52fca8f5afebce9bc8eeff11829aa6b6a0a8fc3bc72ee 813400 debs/com.mlgm.kayoko_5.1.1_iphoneos-arm64e.deb
  187999be953b45d25fc610e3df8114f51f6d8abb2caa2cb8d2d5fe582f396051 814484 debs/com.mlgm.kayoko_5.1.2_iphoneos-arm64e.deb
  c63f49cfc92763cb30458cc11c6d7c251276dc11764b1b7da16113efef45f491 170984 debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb

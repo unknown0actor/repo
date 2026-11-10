@@ -541,22 +541,6 @@ Size: 171396
 SHA256: 64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc
 Depiction: https://unknown0actor.github.io/repo/depictions/com.mlgm.prefnest.html
 
-Package: com.mlgm.prefnest
-Name: PrefNest
-Description: 整理设置首页，集中收纳越狱插件。
-Icon: https://mlgm66.github.io/icon/prefnest.png
-Maintainer: mlgm
-Author: mlgm
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64e
-Version: 1.2
-Installed-Size: 872
-Filename: debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
-Size: 168036
-SHA256: 14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf
-Depiction: https://unknown0actor.github.io/repo/depictions/com.mlgm.prefnest.html
-
 Package: com.nan.disableupdates
 Name: Disable Updates
 Section: System

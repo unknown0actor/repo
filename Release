@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- b792c269191aa9e917a17dbb21db66af 35924 Packages
- 8856be4e0e628591e41b7e91127ede32 10487 Packages.gz
+ 36c000217b53fec4239e840238a39892 35373 Packages
+ f526b8a9a772c0dd1fe02c092eb4be5c 10412 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -41,7 +41,6 @@ MD5Sum:
  98f9e8edbb12d1762fd0c7bc668c3dfa 814484 debs/com.mlgm.kayoko_5.1.2_iphoneos-arm64e.deb
  13e91aecebcc882266eec11934ccf57c 170984 debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
  d711334ad1f194e13145aaf715be91fa 171396 debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64e.deb
- 380df3359dd98d3898b77622cf53d41b 168036 debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
  a0a3e3af45498f5db3a7911658c67955 1124 debs/com.nan.disableupdates_0.1.1_iphoneos-arm64e.deb
  ec75546166a90744f00bd2d9d811b837 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
  ab83ef2fd4467ab85bfaf34729053029 535854 debs/com.netskao.dumpdecrypters_1.5-1_iphoneos-arm64e.deb
@@ -64,8 +63,8 @@ MD5Sum:
  be7160e85c67c8f3672324c4b95834ab 10759458 debs/xhs.x_2.1.3_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- dfe7925b4b6616830d1a5d22cef019778181cdb9e1448f99cc24c29be0207424 35924 Packages
- 296e638f9e91ecfcb612209455d8a8e426b2c9de20070f62d56fd82bbb08c7e0 10487 Packages.gz
+ 858d3c56442f9420e383fc419ca6d2b3fe9d8a69f6b87284d8e2252b81dfa37b 35373 Packages
+ ff6a5e664e46e6f034b28f419d30e3d5a1f688efe3293460b6d45f408a6db726 10412 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -98,7 +97,6 @@ SHA256:
  187999be953b45d25fc610e3df8114f51f6d8abb2caa2cb8d2d5fe582f396051 814484 debs/com.mlgm.kayoko_5.1.2_iphoneos-arm64e.deb
  c63f49cfc92763cb30458cc11c6d7c251276dc11764b1b7da16113efef45f491 170984 debs/com.mlgm.prefnest_1.2.2_iphoneos-arm64e.deb
  64777b016faab23e5876ff06b8489a00e684c233a0234d9c88108f1687c043bc 171396 debs/com.mlgm.prefnest_1.2.3_iphoneos-arm64e.deb
- 14ba4ab2bdb8b4b654a2094177d0654dc579c05355f6534566d2762b73f065bf 168036 debs/com.mlgm.prefnest_1.2_iphoneos-arm64e.deb
  6e25acd15098c1aab8263d105766782b0d6da11817115cca0035c06e609a29a0 1124 debs/com.nan.disableupdates_0.1.1_iphoneos-arm64e.deb
  f04d864169a126f895f74a7849ad4ec8b57ddc8ce566646d0cc6bf4a00e55180 4528 debs/com.netskao.disableshuttersound_1.1-2_iphoneos-arm64e.deb
  6eaa1d4a4320a3014b669079d98da35de79f77eb987a52641e6c34b97dd5755e 535854 debs/com.netskao.dumpdecrypters_1.5-1_iphoneos-arm64e.deb

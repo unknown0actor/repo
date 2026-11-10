@@ -841,6 +841,21 @@ Size: 59054
 SHA256: 1545b7b3511c4e2177d10bf1e081a4f9fc6fc5b390d8dc351f330e5e99ce1249
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
 
+Package: com.unknown.keyboardbar
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Description: 在键盘底栏加一行：全选、复制、粘贴、换行、收起键盘。
+Name: 键盘工具栏
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 107
+Filename: debs/com.unknown.keyboardbar_1.1.1_iphoneos-arm64e.deb
+Size: 12444
+SHA256: 7e1433964666d7867b40c7412a381232116e60d3a9f8c82c20c8a272c54c6f1c
+Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.keyboardbar.html
+
 Package: com.unknown.noshortcutisland
 Version: 0.2.2
 Architecture: iphoneos-arm64e

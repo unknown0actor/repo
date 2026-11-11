@@ -715,6 +715,22 @@ Size: 59054
 SHA256: 1545b7b3511c4e2177d10bf1e081a4f9fc6fc5b390d8dc351f330e5e99ce1249
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
 
+Package: com.unknown.amapcrack
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Description: 高德自定义净化
+ 长按我的触发设置面板
+Name: AMapCrack
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 211
+Filename: debs/com.unknown.amapcrack_1.1.0_iphoneos-arm64e.deb
+Size: 66990
+SHA256: 41b65c1ebc42bfcc47fe5ad0f1e2a7048137a50e0cad6d9403f9a1f34e99cdca
+Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
+
 Package: com.unknown.keyboardbar
 Version: 1.1.1
 Architecture: iphoneos-arm64e

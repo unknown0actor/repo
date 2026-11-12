@@ -731,6 +731,21 @@ Size: 67610
 SHA256: 218732f7df22d2cb90d2b9d012f18896bfefd7fa5fa11ed7f54ef4f95c343905
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
 
+Package: com.unknown.floatextra
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: 为 floatingView 增加浮窗/侧边小窗比例、角落点击方向与小窗收起拉手。
+Name: 浮窗增强
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 144
+Filename: debs/com.unknown.floatextra_0.1.0_iphoneos-arm64e.deb
+Size: 31520
+SHA256: 791616f43b1a22b9946a7eef657c7ab74fc68504339160d00fb455dd7bd0e029
+Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.floatextra.html
+
 Package: com.unknown.keyboardbar
 Version: 1.1.1
 Architecture: iphoneos-arm64e

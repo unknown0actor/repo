@@ -731,21 +731,6 @@ Size: 67610
 SHA256: 218732f7df22d2cb90d2b9d012f18896bfefd7fa5fa11ed7f54ef4f95c343905
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
 
-Package: com.unknown.floatextra
-Version: 0.1.2
-Architecture: iphoneos-arm64e
-Description: 为 floatingView 的侧边小窗补充：1 / 1.5 / 2 / 2.5 倍四档尺寸、收进屏幕边缘的拉手、按所在侧判断的内外滑手势（内滑换边、外滑收起），以及截屏时自动隐藏拉手。
-Name: floatingView小窗增强
-Author: unknown
-Maintainer: unknown
-Section: Tweaks
-Depends: firmware (>= 16.0), mobilesubstrate
-Installed-Size: 144
-Filename: debs/com.unknown.floatextra_0.1.2_iphoneos-arm64e.deb
-Size: 34116
-SHA256: d95546f9b0552a5e022d0777fcf763c3155b4cf94e4fe9b8f08d17645a636b65
-Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.floatextra.html
-
 Package: com.unknown.keyboardbar
 Version: 1.1.1
 Architecture: iphoneos-arm64e

@@ -761,6 +761,21 @@ Size: 12444
 SHA256: 7e1433964666d7867b40c7412a381232116e60d3a9f8c82c20c8a272c54c6f1c
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.keyboardbar.html
 
+Package: com.unknown.noshortcutisland
+Version: 0.3.3
+Architecture: iphoneos-arm64e
+Description: 屏蔽动态岛中的快捷指令状态元素：在活动判定与可呈现元素拦截两处拒绝快捷指令条目，不触碰动态岛元素。
+Name: NoShortcutIsland
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 88
+Filename: debs/com.unknown.noshortcutisland_0.3.3_iphoneos-arm64e.deb
+Size: 6212
+SHA256: b6ef4a0b52bff5a9731f7cd763fc0c61e7bbbbb8ffa3c076c6abb28f88755875
+Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.noshortcutisland.html
+
 Package: com.unknown.notesreadonly
 Version: 1.0.8
 Architecture: iphoneos-arm64e

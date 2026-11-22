@@ -731,6 +731,21 @@ Size: 67610
 SHA256: 218732f7df22d2cb90d2b9d012f18896bfefd7fa5fa11ed7f54ef4f95c343905
 Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.amapcrack.html
 
+Package: com.unknown.floatextra
+Version: 0.1.9
+Architecture: iphoneos-arm64e
+Description: 为 floatingView 的侧边小窗补充：1 / 1.5 / 2 / 2.5 倍四档尺寸、收进屏幕边缘的拉手、按所在侧判断的内外滑手势（内滑换边、外滑收起），以及截屏时自动隐藏拉手。
+Name: floatingView小窗增强
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 144
+Filename: debs/com.unknown.floatextra_0.1.9_iphoneos-arm64e.deb
+Size: 33638
+SHA256: 6c7099046fc20a18b3998dc0fbbdbb0cfbcd7a3c58350a5f6787219d3dc60ab0
+Depiction: https://unknown0actor.github.io/repo/depictions/com.unknown.floatextra.html
+
 Package: com.unknown.keyboardbar
 Version: 1.1.1
 Architecture: iphoneos-arm64e
@@ -883,6 +898,25 @@ Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/xhs.x_2.1.3_iphoneos-arm64e.deb
 Size: 10759458
 SHA256: a95b6bc204931a3ae75a513da142baa44f19f3b4ee2d690239e6dda1edd052d2
+Depiction: https://unknown0actor.github.io/repo/depictions/xhs.x.html
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.1.5
+Installed-Size: 10464
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_2.1.5_iphoneos-arm64e.deb
+Size: 4103636
+SHA256: af68f6fa51e417a6e733d96a1aa875d33af3167cc011674ac20f84d54cba283e
 Depiction: https://unknown0actor.github.io/repo/depictions/xhs.x.html
 
 Package: xyz.cypwn.camscanner

@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 2ffaccf6bfedcaaf30f70e4a57a8ac02 35314 Packages
- 2bf5a75993dfebf78904076867931e5a 10467 Packages.gz
+ 7ae865e7370a905cc27cdf8922fa9257 36547 Packages
+ f9ef477dc78a1fab352bb26a954e315d 10800 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -52,6 +52,7 @@ MD5Sum:
  0e3d9fc803df4ba22950b4b132ac1057 415820 debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
  36b4f8fd55220d0c97bf06409f84bd76 59054 debs/com.unknown.amapcrack_1.0.0_iphoneos-arm64e.deb
  b17d2a0e855b86b0e7e7a795cfdad707 67610 debs/com.unknown.amapcrack_1.1.0_iphoneos-arm64e.deb
+ 51d69fb80459e27e9d64fbf0f4be9aa7 33638 debs/com.unknown.floatextra_0.1.9_iphoneos-arm64e.deb
  c8248b1950f9fd5b50877b0b3af0e62e 12444 debs/com.unknown.keyboardbar_1.1.1_iphoneos-arm64e.deb
  dd422d2b75200157265174c95be32f15 6212 debs/com.unknown.noshortcutisland_0.3.3_iphoneos-arm64e.deb
  095cb29fe720aa21873c95100721c7a3 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
@@ -61,10 +62,11 @@ MD5Sum:
  ae3cceb16c0922ade08fbcff8d13bf90 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  fa10c80c060c16dee1edd87646bf3eef 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  be7160e85c67c8f3672324c4b95834ab 10759458 debs/xhs.x_2.1.3_iphoneos-arm64e.deb
+ 65d8e61f91920b54267daf7f7dd4c750 4103636 debs/xhs.x_2.1.5_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- 723e109d1096959ea942c641db1bd4294f7408c02a6f5934de8a097a180c9541 35314 Packages
- 7529b167be48429d971f733b8d20bc5ae902dce0c472117f5a476f52ebbe3164 10467 Packages.gz
+ 4e93846729a6c0ac651411d570b93621e5347c4d18d368bc58af79528c13a2ae 36547 Packages
+ 8cf70e90f83a452c9adc48b423551a4426a2ab86fd6cd0743aa792dd529fe7b5 10800 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -108,6 +110,7 @@ SHA256:
  17bbec40c6e8d06627c3d5cb1f2f875f31f80ef5a9e92d306dcd145d64d57f39 415820 debs/com.udevs.dockx_2.6.2_iphoneos-arm64e.deb
  1545b7b3511c4e2177d10bf1e081a4f9fc6fc5b390d8dc351f330e5e99ce1249 59054 debs/com.unknown.amapcrack_1.0.0_iphoneos-arm64e.deb
  218732f7df22d2cb90d2b9d012f18896bfefd7fa5fa11ed7f54ef4f95c343905 67610 debs/com.unknown.amapcrack_1.1.0_iphoneos-arm64e.deb
+ 6c7099046fc20a18b3998dc0fbbdbb0cfbcd7a3c58350a5f6787219d3dc60ab0 33638 debs/com.unknown.floatextra_0.1.9_iphoneos-arm64e.deb
  7e1433964666d7867b40c7412a381232116e60d3a9f8c82c20c8a272c54c6f1c 12444 debs/com.unknown.keyboardbar_1.1.1_iphoneos-arm64e.deb
  b6ef4a0b52bff5a9731f7cd763fc0c61e7bbbbb8ffa3c076c6abb28f88755875 6212 debs/com.unknown.noshortcutisland_0.3.3_iphoneos-arm64e.deb
  59390f1a72bcb315e3bd0e4639b9a8d7d74460fdb5efa8336e440988152504c1 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
@@ -117,4 +120,5 @@ SHA256:
  6356dce48a460622f8cd8f523f0f5085be636894a4b4e38cc8d5f85162aff75f 17980 debs/com.zqbb.limitcharging_1.0.8_iphoneos-arm64e.deb
  942e57d0791a1339fc5159b1cde09599078730e8b1567681c8d66efe3edc1d69 7996448 debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
  a95b6bc204931a3ae75a513da142baa44f19f3b4ee2d690239e6dda1edd052d2 10759458 debs/xhs.x_2.1.3_iphoneos-arm64e.deb
+ af68f6fa51e417a6e733d96a1aa875d33af3167cc011674ac20f84d54cba283e 4103636 debs/xhs.x_2.1.5_iphoneos-arm64e.deb
  8977fcbc8bc6bf8a6901cdf06aba5c5e21a2379267961fbbf6ef4b2c224fc676 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb

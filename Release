@@ -7,8 +7,8 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Static jailbreak deb repository, compatible with Cydia, Sileo and Zebra
 MD5Sum:
- 0a5e6492dd31e77257e2ad26d528278c 37387 Packages
- 16620450dfe6e4fa83c079fdbece38ae 10891 Packages.gz
+ efc1585084b9d83a5b849518101940c3 36005 Packages
+ 9045211ff215634611735e21c8441a04 10723 Packages.gz
  1a3c351df7f13f6605da0ce2c0d9b7c9 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  a4b935130c00bcb1cdf1157ec8ee4277 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  10ecfd412cf9df7f3d643bc574f4a3f2 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -53,8 +53,6 @@ MD5Sum:
  36b4f8fd55220d0c97bf06409f84bd76 59054 debs/com.unknown.amapcrack_1.0.0_iphoneos-arm64e.deb
  b17d2a0e855b86b0e7e7a795cfdad707 67610 debs/com.unknown.amapcrack_1.1.0_iphoneos-arm64e.deb
  df4948aa2740cdb74e88d4527936fc1d 34160 debs/com.unknown.floatextra_0.1.3_iphoneos-arm64e.deb
- 6a9456345ccae05fda4f72a2276df492 34198 debs/com.unknown.floatextra_0.1.7_iphoneos-arm64e.deb
- faa7d825efa4e4fb8687302800071a7d 33806 debs/com.unknown.floatextra_0.1.8_iphoneos-arm64e.deb
  c8248b1950f9fd5b50877b0b3af0e62e 12444 debs/com.unknown.keyboardbar_1.1.1_iphoneos-arm64e.deb
  dd422d2b75200157265174c95be32f15 6212 debs/com.unknown.noshortcutisland_0.3.3_iphoneos-arm64e.deb
  095cb29fe720aa21873c95100721c7a3 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
@@ -66,8 +64,8 @@ MD5Sum:
  be7160e85c67c8f3672324c4b95834ab 10759458 debs/xhs.x_2.1.3_iphoneos-arm64e.deb
  b1ff12fd8bcc3ee8a3b7c86cfbcb891c 9846 debs/xyz.cypwn.camscanner_0.0.1_iphoneos-arm64e.deb
 SHA256:
- 5a18a43ba24309e73c391ea55c859ee45b679dafe75e61569628338eb5b77299 37387 Packages
- a1c1fed69f5f6cd737be6bc7cb0e2e76d48b527b00b3271fcfcd86d49eb877d4 10891 Packages.gz
+ b15d9995013cdb13b0fd513d9b173cf7455b02d061892aa0f3fa88663e85084d 36005 Packages
+ 4305a979250438e9f5e69add4966441cc7c018b0aeffa43869ad5c64548ddc3a 10723 Packages.gz
  3f5b5a4e38553a43920f5609f99a3b9427b0dfc3cf07dd5b8248d1bd7f08fc7f 524638 debs/cn.llld.snapshottool_4.4_iphoneos-arm64e.deb
  5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306 4753832 debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
  0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa 254952 debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
@@ -112,8 +110,6 @@ SHA256:
  1545b7b3511c4e2177d10bf1e081a4f9fc6fc5b390d8dc351f330e5e99ce1249 59054 debs/com.unknown.amapcrack_1.0.0_iphoneos-arm64e.deb
  218732f7df22d2cb90d2b9d012f18896bfefd7fa5fa11ed7f54ef4f95c343905 67610 debs/com.unknown.amapcrack_1.1.0_iphoneos-arm64e.deb
  c67103238ec23bd2b001b0b6b8a6a998f3d8f1edb81ca95a068bb75a44a3e9cb 34160 debs/com.unknown.floatextra_0.1.3_iphoneos-arm64e.deb
- b091d7f4e1560ad2d04c473a4736ad4b96a87c6d9f4335a52206659d2227aa76 34198 debs/com.unknown.floatextra_0.1.7_iphoneos-arm64e.deb
- 2ab0f5f7efbf23794325af53ceac63d2a046b1ca7e91a03d4bbf99325155c157 33806 debs/com.unknown.floatextra_0.1.8_iphoneos-arm64e.deb
  7e1433964666d7867b40c7412a381232116e60d3a9f8c82c20c8a272c54c6f1c 12444 debs/com.unknown.keyboardbar_1.1.1_iphoneos-arm64e.deb
  b6ef4a0b52bff5a9731f7cd763fc0c61e7bbbbb8ffa3c076c6abb28f88755875 6212 debs/com.unknown.noshortcutisland_0.3.3_iphoneos-arm64e.deb
  59390f1a72bcb315e3bd0e4639b9a8d7d74460fdb5efa8336e440988152504c1 20922 debs/com.unknown.notesreadonly_1.0.8_iphoneos-arm64e.deb
